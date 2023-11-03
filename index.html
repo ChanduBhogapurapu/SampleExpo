@@ -1,0 +1,2828 @@
+<html>
+<head>
+	<title>GMRIT</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- Mobile Specific Meta
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/x-icon" href="https://img.jagranjosh.com/images/2022/June/962022/GMR.jpg">
+	<!-- CSS
+  ================================================== -->
+	<!-- Themefisher Icon font -->
+	<link rel="stylesheet" href="plugins/themefisher-font/style.css">
+	<!-- bootstrap.min css -->
+	<link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+	<!-- Lightbox.min css -->
+	<link rel="stylesheet" href="plugins/lightbox2/dist/css/lightbox.min.css">
+	<!-- animation css -->
+	<link rel="stylesheet" href="plugins/animate/animate.css">
+	<!-- Slick Carousel -->
+	<link rel="stylesheet" href="plugins/slick/slick.css">
+	<!-- aos animate -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<!-- Bootstrap Icons -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+	<!-- Main Stylesheet -->
+	<link rel="stylesheet" href="./webcss/Newstyle.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet" />
+	<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.0.0/mdb.min.js"></script> -->
+	<style>
+		
+		.ranking_container .ranking_card-stack p {
+			font-size: 1rem;
+		}
+		.ranking_logo {
+			height: 50%;
+			width: 100%;
+		}
+		.NoticeTitle ul li {
+			margin-bottom: 15px;
+			line-height: 20px;
+			padding-bottom: 20px;
+			border-bottom: 1px solid rgba(111, 111, 115, 0.432);
+			font-size: 12px;
+			width: 60%;
+			text-align: center;
+		}
+
+		.NoticeTitle ul li:before {
+			content: "\f178";
+			font-family: 'FontAwesome';
+			padding-right: 10px;
+			text-align: center;
+		}
+
+		p {
+			text-align: center;
+		}
+		.starting{
+			width:33rem;
+		}
+		@media only screen and (min-width: 736px) {
+			.card-slider {
+				padding-left: 10rem;
+			}
+		}
+		@media only screen and (max-width: 760px) {
+			.starting{
+				width:25rem;
+		    }
+
+			.card-slider__item {
+				padding: 5px;
+				margin-top: 2rem;
+			}
+
+			.media-wrapper {
+				overflow-y: hidden;
+				overflow-x: hidden;
+			}
+
+			/* .highlight:hover {*/
+			/*box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;*/
+			/* }*/
+			.highlight:hover img {
+				transform: scale(1.1);
+			}
+
+			.social .box {
+				transform: scale(0.8);
+			}
+			.CardGmritLogo {
+				width: 80%;
+			}
+			.ranking_logo {
+				height: 50%;
+				width: 100%;
+			}
+			.ranking_container .ranking_card-stack p {
+				font-size: 1.2rem !important;
+			}
+		}
+		
+        .confetti {
+            position: relative;
+        }
+        .btn1 {
+            position: absolute;
+        }
+        .bt1 {
+            top: 20%;
+            left: 20%;
+        }
+        .bt2 {
+            top: 40%;
+            left: 40%;
+        }
+        .bt3 {
+            top: 20%;
+            left: 80%;
+        }
+        .bt4 {
+            top: 80%;
+            left: 60%;
+        }
+		.infolist .info_wrapper .info .text:nth-child(1){
+	font-size:2.5rem;
+}
+	.infolist .info_wrapper .info .text:nth-child(2){
+	font-size:1.8rem;
+}	
+		.infolist .info_wrapper .info .text:nth-child(2){
+	font-size:1.2rem;
+}		
+	</style>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body id="body" style="overflow-x: hidden;">
+	<!--
+  Start Preloader
+  ==================================== -->
+	<div id="preloader">
+		<div class="logo is-animetion">
+			<span class="blue-gmr">G</span>
+			<span class="red-gmr">M</span>
+			<span class="yellow-gmr">R</span>
+			<span class="red-gmr">I</span>
+			<span class="blue-gmr">T</span>
+		</div>
+	</div>
+	<script>
+		let preloader = document.getElementById('preloader');
+		setTimeout(() => {
+			preloader.style.display = 'None';
+		}, 3000);
+	</script>
+	<!--
+  End Preloader
+  ==================================== -->
+  <!--
+  	<!--
+  Start IMAGE MODAL
+  ==================================== 
+
+      <div id="myModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content" >
+           <div class="modal-body mb-0 p-0">
+
+              <div class="embed-responsive  z-depth-1-half">
+					 <img class="img-fluid z-depth-1" src="./images/50000.JPG">
+				
+              </div>
+
+            </div>
+
+            <div class="modal-footer justify-content-center">
+              <span class="mr-4"><b>GMR Institute of Technology</b></span>
+              <a type="button" class="btn-floating btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>
+              
+              <a type="button" class="btn-floating btn-sm btn-tw"><i class="fab fa-twitter"></i></a>
+             
+              <a type="button" class="btn-floating btn-sm btn-gplus"><i class="fab fa-google-plus-g"></i></a>
+              
+              <a type="button" class="btn-floating btn-sm btn-ins"><i class="fab fa-linkedin-in"></i></a>
+
+              <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+
+            </div>
+        </div>
+    </div>
+</div>
+    
+  END IMAGE MODAL
+  ==================================== -->
+
+	
+	<!-- Chat Bot -->
+		<!-- Navbar -->
+	<style>
+	.angle-bg {
+		position: relative;
+		height: 50px;
+	}
+
+	.angle-bg:before {
+		content: "";
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		width: 115%;
+		background: #00327Aff;
+		transform: skew(-30deg);
+		left: -10%;
+		box-shadow: 10px 10px rgba(54, 117, 206, 0.747);
+	}
+
+	.initialbg {
+		position: relative;
+		height: 37px;
+	}
+
+	.innavlink {
+		color: #00327Aff !important;
+	}
+
+	.innavlink:hover {
+		color: #FAB210ff !important;
+	}
+
+
+	/* needed to add through javascript */
+
+
+	.downbg {
+		position: relative;
+		height: 30px;
+	}
+
+	.down-bg:before {
+		content: "";
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		width: 135%;
+		background: #00327Aff;
+		transform: skew(-30deg);
+		left: -10%;
+		box-shadow: 10px 10px rgba(54, 117, 206, 0.747);
+	}
+
+
+
+	.forhover {
+		transition: 0.1s ease-in-out;
+		background: #00327Aff !important;
+	}
+
+	.jsnavlink {
+		color: white !important;
+	}
+
+	.jsnavlink:hover {
+		color: #FAB210ff !important;
+	}
+
+
+	/* end for javascript */
+	.case-item-header {
+		margin: 12px 8px 14px;
+		font-size: 50px;
+		color: #fff;
+		text-align: right;
+	}
+
+	.ribbon {
+		display: flex;
+		z-index: 10;
+		justify-content: center;
+		align-items: center;
+	}
+
+	/* .navtop {
+		height: 140%;
+	} */
+
+	.navfirst {
+		width: 100%;
+	}
+
+	.forspace {
+		padding: 0px 10px;
+	}
+
+	.icon {
+		padding-left: 0.8rem;
+		font-size: 1.2rem;
+		color: #00327Aff !important;
+	}
+
+	.icon-light {
+		padding-left: 0.8rem;
+		font-size: 1.2rem;
+		color: #00327Aff !important;
+	}
+
+	.v-slider-frame {
+		border: 1px solid #4BB3FD;
+		height: 50px;
+		overflow: hidden;
+		text-align: center;
+	}
+
+	ul .v-slides {
+		list-style-type: none;
+		transform: translateY(50px);
+		padding: 0;
+	}
+
+	.v-slide {
+		font-size: 24px;
+		line-height: 50px;
+		color: #4BB3FD;
+	}
+
+	/* search */
+	.search-container {
+		/* width: 300px; */
+		display: flex;
+		margin: 0 auto;
+		align-items: center;
+		justify-content: center;
+		/* margin-left: 3rem; */
+	}
+
+	input#search-bar {
+		margin: 0 auto;
+		width: 100%;
+		height: 32px;
+		padding: 0 10px;
+		font-size: 1rem;
+		border: 1px solid #D0CFCE;
+		outline: none;
+	}
+
+	input#search-bar:focus {
+		border: 1px solid #008ABF;
+		transition: 0.35s ease;
+		color: #008ABF;
+	}
+
+	input#search-bar:focus::-webkit-input-placeholder {
+		transition: opacity 0.45s ease;
+		opacity: 0;
+	}
+
+	input#search-bar:focus::-moz-placeholder {
+		transition: opacity 0.45s ease;
+		opacity: 0;
+	}
+
+	input#search-bar:focus:-ms-placeholder {
+		transition: opacity 0.45s ease;
+		opacity: 0;
+	}
+
+	.search-icon {
+		position: relative;
+		float: right;
+		width: 75px;
+		height: 75px;
+		top: -62px;
+		right: -45px;
+	}
+
+	.connected,
+	.social {
+		color: #000;
+	}
+
+	.upperNavigation li .nav-link {
+		color: #fff !important;
+	}
+
+
+	.mobileNavbar {
+		display: none;
+	}
+
+	@media(max-width: 768px) {
+		.megaNavbar {
+			display: none;
+		}
+
+		.mobileNavbar {
+			display: block;
+		}
+	}
+
+
+	.megamenu {
+		padding-bottom: 5px;
+	}
+	
+	
+	@media(max-width: 768px) {
+		.megaNavbar {
+			display: none;
+		}
+
+		.mobileNavbar {
+			display: block;
+		}
+.navbar-light .navbar-nav .nav-link{
+			color:blue;
+		}
+		.form-control {
+			width: auto;
+		}
+		
+	}
+	
+</style>
+
+
+
+<section class="megaNavbar">
+	<div class="topnavbar">
+		<div class=" navtop" style="display: flex;justify-content:space-evenly;align-items:center;">
+			<nav class=" navbar-expand-lg  navbar-light" style="padding-left:3vw;padding-bottom:1.8vh;">
+				<div id="navbarContent" class="collapse navbar-collapse navfirst" style="padding-right:3.5rem;">
+					<div class="row angle-bg">
+						<div class="ribbon">
+							<ul class="navbar-nav  ml-auto upperNavigation">
+								<!-- Home list -->
+								<li class="nav-item"><a href="index.php" class="nav-link font-weight-bold text-uppercase">Home</a>
+								</li>
+								<li class="nav-item"><a href="newAbout.php" class="nav-link font-weight-bold text-uppercase">About</a></li>
+								<!-- Accreditations -->
+								<li class="nav-item"><a href="accreditations.php" class="nav-link font-weight-bold text-uppercase">Accreditations</a></li>
+								<!-- Home list -->
+								<li class="nav-item"><a href="index.php#notifications" class="nav-link font-weight-bold text-uppercase">Notifications</a>
+								</li>
+								<li class="nav-item"><a href="https://gmrit.edu.in/payments/" target="_blank" class="nav-link font-weight-bold text-uppercase">Online payments</a></li>
+								<!-- Accreditations -->
+								<li class="nav-item"><a href="placements.php" class="nav-link font-weight-bold text-uppercase">placements</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+			</nav>
+			<div class="forspace" style="display:flex; align-items:center">
+				<!-- <span class="connected" style="display: flex;justify-content:space-evenly;align-items:center;">Get Connected <i class="bi bi-headset icon"></i></i> <i class="bi bi-whatsapp icon"></i><i class="bi bi-pin-map-fill icon"></i></p></span> -->
+				<span class="connected" style="display: flex;justify-content:space-evenly;align-items:center;">Get Connected <a href="tel:+8941251592" target="_blank"><img class="icon" src="https://img.icons8.com/flat-round/21/000000/phone.png"></a> <a href="https://api.whatsapp.com/send/?phone=9949784378&" target="_blank"><img src="https://img.icons8.com/color/26/000000/whatsapp--v1.png" class="icon" /></a><a href="https://goo.gl/maps/9KpbyHth3eKajyQ28" target="_blank"><img src="https://img.icons8.com/color/26/000000/360-view.png" class="icon" /></a></p></span>
+			</div>
+			<div class="forspace" style="display:flex; align-items:center">
+				<span class="social" style="display: flex;justify-content:space-evenly;align-items:center;">Get Social <a href="https://www.facebook.com/GMRITofficial" target="_blank" ><img src="https://img.icons8.com/fluency/26/000000/facebook.png" class="icon" /></a><a href="https://mobile.twitter.com/GMRIT1997" target="_blank"><img src="https://img.icons8.com/fluency/24/000000/twitter.png" class="icon" /></i></a><a href="https://www.instagram.com/gmrit_rajam/" target="_blank"><img src="https://img.icons8.com/fluency/26/000000/instagram-new.png" class="icon" /></a><a href="https://www.youtube.com/c/GMRITRajamAP1997" target="_blank"><img src="https://img.icons8.com/fluency/26/000000/youtube-play.png" class="icon" /></a></span>
+			</div>
+			<div>
+				<form class="search-container" style="display: flex;justify-content:space-evenly;align-items:center;">
+					<input type="text" id="search-bar" placeholder="Need help!" style="border:solid 1px #00327Aff">&nbsp;<i class="bi bi-search icon" style="padding-right: 0.5vw;color:#00327Aff;"></i>
+				</form>
+			</div>
+		</div>
+		<div class=" row downnavbar" id="downnavbar">
+			<div class="col-md-4">
+				<a href="./index.php">
+					<img src="images/logo.jpg" style="transform:scale(0.8);width:auto;padding-left: 6rem;" alt="GMRIT LOGO">
+				</a>
+			</div>
+
+			<div class="col-md-8 forblue" style="display: flex;margin:0 -4.7rem 0 0;">
+				<nav class="navbar navbar-expand-lg navbar-light bg-white mynav" id="togglenav">
+					<button type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"> <span class="navbar-toggler-icon"></span>
+					</button>
+					<div id="navbarContent" class="collapse navbar-collapse" style="padding-right:2vw">
+						<div class="row initialbg" id="downbg">
+							<div class="ribbon">
+								<ul class="navbar-nav  ml-auto downNavigation" style="width:50vw;">
+									<!-- Governance list -->
+									<li class="nav-item dropdown megamenu"><a id="megamneu" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link innavlink selectnavlink dropdown-toggle font-weight-bold text-uppercase">Governance</a>
+										<div aria-labelledby="megamneu" id="navbar-goverance-dropdown" class="dropdown-menu border-0 p-0 m-0">
+											<div class="container">
+												<div class="row rounded-0 m-0 shadow-sm bg-white">
+													<div class="col-lg-6 h6 overviewPart" style="padding:0 !important;margin:0 !important;">
+														<!--<h6 class="font-weight-bold text-uppercase overviewTitle">Overview</h6>-->
+
+														<img src="images/navbar/governance.png" style="width:100%;height:100%;" alt="" class="navbarVisualImg overviewPicture">
+													</div>
+													<div class="col-lg-6 selectforhover">
+														<div class="p-4">
+															<div class="row ">
+																<div class="col-lg-14 mb-4">
+																	<ul class="list-unstyled" style="list-style: circle;margin-left:20px;">
+																		<li class="nav-item"><a href="autonomy.php" class="nav-link innavlink selectnavlink text-small pb-0">Overview</a></li>
+																		<li class="nav-item"><a href="highlight_autonomy.php" class="nav-link innavlink selectnavlink text-small pb-0">Highlights of Autonomy</a></li>
+																		<li class="nav-item"><a href="governance.php" class="nav-link  innavlink selectnavlink text-small pb-0 ">Governance Committees</a></li>
+																		<li class="nav-item"><a href="./academic_regulations.php" class="nav-link innavlink selectnavlink  text-small pb-0 uc_link">Academic Regulations</a></li>
+																		<li class="nav-item"><a href="./PDFs/governance/ugc_undertaking.pdf" class="nav-link innavlink selectnavlink  text-small pb-0 uc_link">UGC Undertaking</a></li>
+																		
+																		 <!--<li class="nav-item"><a href="#" class="nav-link innavlink selectnavlink text-small pb-0 uc_link">UGC
+																				Undertaking</a></li> -->
+																	</ul>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+									<!-- Programs List -->
+									<li class="nav-item dropdown megamenu"><a id="megamneu" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link  innavlink selectnavlink dropdown-toggle font-weight-bold text-uppercase">Programs</a>
+										<div aria-labelledby="megamneu" id="navbar-programs-dropdown" class="dropdown-menu border-0 p-0 m-0">
+											<div class="container">
+												<div class="row bg-white rounded-0 m-0 shadow-sm ">
+
+
+													<div class="col-md-5 h6 overviewPart" style="padding:0 !important;margin:0 !important;">
+														<img src="images/navbar/placements.png" style="width:100%;height:100%;" alt="Not loading" class="navbarVisualImg overviewPicture ">
+
+													</div>
+													<div class="col-md-7 selectforhover">
+														<div class="p-4">
+															<div class="row">
+																<div class="col-lg-14 mb-4">
+																	<h6 class="font-weight-bold text-uppercase innavlink selectnavlink">UNDERGRADUATE</h6>
+																	<ul class="list-unstyled" style="list-style: circle;margin-left:20px;">
+
+																		<li class="nav-item"><a href="departmentOverview.php" class="nav-link  innavlink selectnavlink text-small pb-0 ">Overview</a></li>
+																	<!--	<li class="nav-item"><a href="department.php?code=chem" class="nav-link  innavlink selectnavlink text-small pb-0 uc_link">Chemical Engineering</a>
+																		</li> -->
+																		<li class="nav-item"><a href="department.php?code=civil" class="nav-link  innavlink selectnavlink text-small pb-0 uc_link">Civil Engineering
+																			</a></li>
+																		<li class="nav-item"><a href="department.php?code=cse" class="nav-link  innavlink selectnavlink text-small pb-0 ">Computer Science and Engineering
+																			</a>
+																		</li>
+																		<li class="nav-item"><a href="department.php?code=eee" class="nav-link  innavlink selectnavlink text-small pb-0 uc_link">Electrical and Electronics Engineering
+																			</a></li>
+																		<li class="nav-item"><a href="department.php?code=ece" class="nav-link  innavlink selectnavlink text-small pb-0 uc_link">Electronics and Communication Engineering
+																			</a></li>
+																					</a></li>
+																		<li class="nav-item"><a href="department.php?code=mech" class="nav-link  innavlink selectnavlink text-small pb-0 uc_link">Mechanical Engineering
+																			</a></li>
+																		<li class="nav-item"><a href="department.php?code=it" class="nav-link  innavlink selectnavlink text-small pb-0 uc_link">Information Technology</a>
+																		</li>
+																		<li class="nav-item"><a href="department.php?code=AIDS" class="nav-link  innavlink selectnavlink text-small pb-0 uc_link">CSE
+																				(Artificial Intelligence & Data Science)</a></li>
+																		<li class="nav-item"><a href="department.php?code=AIML" class="nav-link  innavlink selectnavlink text-small pb-0 uc_link">CSE
+																				(Artificial Intelligence & Machine Learning)</a></li>
+																		<li class="nav-item"><a href="honors_and_minors.php" class="nav-link  innavlink selectnavlink text-small pb-0 uc_link">Honors
+																				and Minor Degrees</a></li>
+																	</ul>
+																</div>
+																<div class="col-lg-14 mb-4">
+																	<h6  class="font-weight-bold text-uppercase innavlink selectnavlink">POST GRADUATE</h6>
+																	<ul class="list-unstyled" style="list-style: circle;margin-left:20px;">
+																		<li class="nav-item"><a href="https://gmrit.edu.in/pgOverview.php" class="nav-link  innavlink selectnavlink text-small pb-0">Overview</a></li>
+																		<li class="nav-item"><a href="postgraduation.php?code=cse" class="nav-link  innavlink selectnavlink text-small pb-0 uc_link">Computer Science and Engineering</a></li>																		
+																		<li class="nav-item"><a href="postgraduation.php?code=pi" class="nav-link  innavlink selectnavlink text-small pb-0 uc_link">Power and Industrial
+																				Drives</a>
+																		</li>
+																		
+																		<li class="nav-item"><a href="postgraduation.php?code=te" class="nav-link  innavlink selectnavlink text-small pb-0 uc_link">Transportation Engineering</a>
+																		</li>
+																		<li class="nav-item"><a href="postgraduation.php?code=vlsi" class="nav-link  innavlink selectnavlink text-small pb-0 uc_link">VLSI and Embedded Systems
+																				Design</a>
+																		</li>
+																		<li class="nav-item"><a href="postgraduation.php?code=thermal" class="nav-link  innavlink selectnavlink text-small pb-0 uc_link">Thermal Engineering </a>
+																		</li>
+																	</ul>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+									<!-- Resources list -->
+									<li class="nav-item dropdown megamenu"><a id="megamneu" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link innavlink selectnavlink dropdown-toggle font-weight-bold text-uppercase">Resources</a>
+										<div aria-labelledby="megamneu" id="navbar-resources-dropdown" class="dropdown-menu border-0 p-0 m-0">
+											<div class="container">
+												<div class="row bg-white rounded-0 m-0 shadow-sm ">
+													<div class="col-lg-5 h6 overviewPart" style="padding:0 !important;margin:0 !important;">
+
+														<img src="images/navbar/stateofart.png" alt="" style="width:100%;height:100%;" class="navbarVisualImg overviewPicture">
+													</div>
+													<div class="col-lg-7 selectforhover">
+														<div class="p-4">
+															<div class="row ">
+																<div class="col-lg-14 mb-4">
+																<ul class="list-unstyled">
+																		<li class="nav-item" >
+																			<font style="color:#FAB210ff;font-weight:bold;">Human Resources</font> <br>
+																			<ul class="list-unstyled" style="list-style: circle;margin-left:20px;">
+																				<li class="nav-item"><a href="facultydirectory.php" class="nav-link innavlink selectnavlink text-small pb-0 ">Faculty Directory</a></li>
+																				<li class="nav-item"><a href="./PDFs/faculty/faculty_incentives.pdf" target="_blank" class="nav-link innavlink selectnavlink text-small pb-0 uc_link">Faculty Incentives</a></li>
+																				<li class="nav-item"><a href="./PDFs/faculty/hr_policies.pdf" target="_blank" class="nav-link innavlink selectnavlink text-small pb-0 uc_link">H.R. Policies</a></li>
+																				<li class="nav-item"><a href="./PDFs/faculty/Updated_PhD_Policy.pdf" target="_blank" class="nav-link innavlink selectnavlink text-small pb-0 uc_link">Updated Ph.D. Policy</a></li>
+																				<li class="nav-item"><a href="careers.php" class="nav-link innavlink selectnavlink text-small pb-0 ">Careers@GMRIT</a></li>
+																			</ul>
+																		</li>
+																			<br>
+
+																		<li class="nav-item" >
+																		<font style="color:#FAB210ff;font-weight:bold;">Physical Resources</font> <br>
+																			
+																			<ul class="list-unstyled" style="list-style: circle;margin-left:20px;">
+																				<li class="nav-item"><a href="labs.php" class="nav-link innavlink selectnavlink text-small pb-0">Labs</a></li>
+																				<li class="nav-item"><a href="library.php" class="nav-link innavlink selectnavlink text-small pb-0">Library</a></li>																				
+																				<li class="nav-item"><a href="./infrastructure.php" class="nav-link innavlink selectnavlink text-small pb-0 c_link">Infrastructure</a></li>
+																			
+																			</ul>
+																		</li>
+																		<br>
+																		<li class="nav-item" >
+																		<font style="color:#FAB210ff;font-weight:bold;">Online Resources</font> <br>
+																			
+																			<ul class="list-unstyled" style="list-style: circle;margin-left:20px;">
+
+																				<li class="nav-item"><a href="https://lcs.gmrit.edu.in/" class="nav-link innavlink selectnavlink text-small pb-0 c_link">Lecture Capturing System</a></li>
+																																					<li class="nav-item"><a target="_blank"href="https://www.coursera.org/" target="_blank" class="nav-link innavlink selectnavlink text-small pb-0 c_link">Coursera</a></li>
+																				
+																				
+																			</ul>
+																		</li>
+																	
+																		
+
+																	</ul>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+									<!-- Examination list -->
+									<li class="nav-item dropdown megamenu"><a id="megamneu" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link innavlink selectnavlink dropdown-toggle font-weight-bold text-uppercase">Examinations</a>
+										<div aria-labelledby="megamneu" id="navbar-examinations-dropdown" class="dropdown-menu border-0 p-0 m-0">
+											<div class="container">
+												<div class="row bg-white rounded-0 m-0 shadow-sm">
+													<div class="col-lg-6 overview" style="padding:0 !important;margin:0 !important;">
+
+														<img src="images/navbar/examination.png" alt="" style="width:100%;height:100%;" class="navbarVisualImg overviewPicture">
+													</div>
+													<div class="col-lg-6 selectforhover">
+														<div class="p-4">
+															<div class="row ">
+																<div class="col-lg-14 mb-4">
+																<ul class="list-unstyled" style="list-style: circle;margin-left:20px;">
+																		<li class="nav-item"><a href="./examination/index.php" class="nav-link innavlink selectnavlink text-small pb-0 uc_link">Overview</a></li>
+																		<li class="nav-item"><a href="./examination/results.php" class="nav-link innavlink selectnavlink text-small pb-0 uc_link">Results</a></li>
+																		<li class="nav-item"><a href="./examination/timetables.php" class="nav-link innavlink selectnavlink text-small pb-0 uc_link">Timetables</a></li>
+																		<li class="nav-item"><a href="./examination/notifications.php" class="nav-link innavlink selectnavlink text-small pb-0 uc_link">Notifications</a></li>
+																	<!--	<li class="nav-item"><a href="#" class="nav-link innavlink selectnavlink text-small pb-0 uc_link">Result
+																				Declaration Committee</a></li> -->
+																		<li class="nav-item"><a href="./examination/academic_calendars.php" class="nav-link innavlink selectnavlink text-small pb-0 uc_link">Academic Calendars
+																			</a></li>
+																		<li class="nav-item"><a href="./examination/docs/Autonomy_Regulations_Examinations.pdf" class="nav-link innavlink selectnavlink text-small pb-0 uc_link">Examinations Regulations
+																			</a></li>
+																		<li class="nav-item"><a href="./examination/docs/Transitory_Regulations.pdf" target="_pdf"class="nav-link innavlink selectnavlink text-small pb-0 uc_link">Transitory Regulations</a>
+																		</li>
+																		<!--<li class="nav-item"><a href="../cms/" target="_blank" class="nav-link innavlink selectnavlink text-small pb-0 uc_link">Open Elective Registrations</a></li> -->
+																		<li class="nav-item"><a href="http://115.241.205.5/wbc/index.aspx" target="_blank" class="nav-link innavlink selectnavlink text-small pb-0 uc_link">Old Question Papers</a></li>
+												
+																	</ul>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+									<!-- Placements list -->
+									<li class="nav-item dropdown megamenu"><a id="megamneu" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link innavlink selectnavlink dropdown-toggle font-weight-bold text-uppercase">Research</a>
+										<div aria-labelledby="megamneu" id="navbar-placements-dropdown" class="dropdown-menu border-0 p-0 m-0">
+											<div class="container">
+												<div class="row bg-white rounded-0 m-0 shadow-sm ">
+													<div class="col-lg-6 h6 p-4 overviewPart" style="padding:0 !important;margin:0 !important;">
+														<img src="images/navbar/research.png" style="width:100%;height:100%;" alt="" class="navbarVisualImg overviewPicture">
+													</div>
+													<div class="col-lg-6 selectforhover">
+														<div class="p-4">
+															<div class="row ">
+																<div class="col-lg-14 mb-4">
+																<ul class="list-unstyled" style="list-style: circle;margin-left:20px;">
+																		<li class="nav-item"><a href="research.php" class="nav-link innavlink selectnavlink text-small pb-0 ">Overview</a></li>
+																		<li class="nav-item"><a href="researchcell.php"  class="nav-link innavlink selectnavlink text-small pb-0 ">Research & Development Cell</a></li>
+																		<li class="nav-item"><a href="researchboard.php" class="nav-link innavlink selectnavlink text-small pb-0 ">Research Advisory Board</a></li>
+																		<li class="nav-item"><a href="https://gmrit.irins.org/" target="_blank" class="nav-link innavlink selectnavlink text-small pb-0 uc_link">Faculty Research Profiles</a></li>
+																		<li class="nav-item"><a href="researchGroups.php" class="nav-link innavlink selectnavlink text-small pb-0 uc_link">Research Groups</a></li>
+																		<li class="nav-item"><a href="publications.php" class="nav-link innavlink selectnavlink text-small pb-0 uc_link">Faculty Publications</a></li>
+																		<li class="nav-item"><a href="research-projects.php" class="nav-link innavlink selectnavlink text-small pb-0 uc_link">Research Projects</a></li>
+																		<li class="nav-item"><a href="seminars.php" class="nav-link innavlink selectnavlink text-small pb-0 uc_link">Seminar & Conference Notifications</a></li>
+																		<li class="nav-item"><a href="./PDFs/research/grants_received.pdf" target="_blank" class="nav-link innavlink selectnavlink text-small pb-0 uc_link">Grants Received</a></li>
+																		<li class="nav-item"><a href="labs.php"  class="nav-link innavlink selectnavlink text-small pb-0 uc_link">Research Labs/Center</a></li>
+																		<li class="nav-item"><a href="patents.php"  class="nav-link innavlink selectnavlink text-small pb-0 uc_link">Patents</a></li>
+																		<li class="nav-item"><a href="mous.php"  class="nav-link innavlink selectnavlink text-small pb-0 uc_link">MOUs</a></li>
+																	</ul>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+									<!-- Life@Gmrit list -->
+									<li class="nav-item dropdown megamenu"><a id="megamneu" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link innavlink selectnavlink dropdown-toggle font-weight-bold text-uppercase">Life@GMRIT</a>
+										<div aria-labelledby="megamneu" id="navbar-life@gmrit-dropdown" class="dropdown-menu border-0 p-0 m-0">
+											<div class="container">
+												<div class="row bg-white rounded-0 m-0 shadow-sm ">
+													<div class="col-lg-6 h6 overviewPart" style="padding:0 !important;margin:0 !important;">
+
+														<img src="images/navbar/life.png" style="width:100%;height:100%;" alt="" class="navbarVisualImg overviewPicture">
+													</div>
+													<div class="col-lg-6 selectforhover">
+														<div class="p-4">
+															<div class="row ">
+																<div class="col-lg-14 mb-4">
+																<ul class="list-unstyled" style="list-style: circle;margin-left:20px;">
+																		<li class="nav-item"><a href="life.php" class="nav-link innavlink selectnavlink text-small pb-0 uc_link">Overview</a></li>
+																		<li class="nav-item"><a href="newsletter.php" class="nav-link innavlink selectnavlink text-small pb-0 uc_link">Campus News Letter</a></li>
+																		<li class="nav-item"><a href="techmag.php" class="nav-link innavlink selectnavlink text-small pb-0 uc_link">TechMag</a></li>
+																		<li class="nav-item"><a href="hostels.php" class="nav-link innavlink selectnavlink text-small pb-0 uc_link">Hostels</a></li>
+															
+																		<li class="nav-item"><a href="./studentActivities/index.php" target="_blank" class="nav-link innavlink selectnavlink text-small pb-0 uc_link">Student Activities</a></li>											</li>
+																		<li class="nav-item"><a href="./Documents/student_incentives.pdf" target="_blank" class="nav-link innavlink selectnavlink text-small pb-0 uc_link">Student Incentives</a></li>
+																		<li class="nav-item"><a href="sports.php" class="nav-link innavlink selectnavlink text-small pb-0 uc_link">Sports
+																				Facilities & Achievements</a></li>
+																		
+																		
+																	</ul>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+									<!-- Alumni -->
+									<li class="nav-item"><a href="http://115.241.205.4/alumni/index.aspx" target="_blank" class="nav-link innavlink selectnavlink text-small pb-0 uc_link">ALUMNI</a></li>
+									
+									<!-- Parent / student / faculty Login -->
+									<li class="nav-item dropdown megamenu"><a id="megamneu" href="http://cms.gmrit.edu.in/" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link innavlink selectnavlink dropdown-toggle font-weight-bold text-uppercase">Login</a>
+										<div aria-labelledby="megamneu" id="navbar-life@gmrit-dropdown" class="dropdown-menu border-0 p-0 m-0">
+											<div class="container">
+												<div class="row bg-white rounded-0 m-0 shadow-sm ">
+													<div class="col-lg-6 h6  overviewPart" style="padding:0 !important;margin:0 !important;">
+
+														<img src="images/navbar/login.png" style="width:100%;height:100%;" alt="" class="navbarVisualImg overviewPicture">
+													</div>
+													<div class="col-lg-6 selectforhover">
+														<div class="p-4">
+															<div class="row ">
+																<div class="col-lg-14 mb-4">
+																<ul class="list-unstyled" style="list-style: circle;margin-left:20px;">
+																		<li class="nav-item"><a href="https://gmrit.collpoll.com/" target="_blank" class="nav-link innavlink selectnavlink text-small pb-0 uc_link">Student Login</a></li>
+																		<li class="nav-item"><a href="https://gmrit.collpoll.com/" target="_blank" class="nav-link innavlink selectnavlink text-small pb-0 uc_link">Parent Login</a></li>
+																		<li class="nav-item"><a href="https://gmrit.collpoll.com/" target="_blank" class="nav-link innavlink selectnavlink text-small pb-0 uc_link">Staff Login</a></li>
+																		
+																		<li class="nav-item"><a href="https://login.microsoftonline.com/organizations/oauth2/v2.0/authorize?client_id=4765445b-32c6-49b0-83e6-1d93765276ca&redirect_uri=https%3A%2F%2Fwww.office.com%2Flandingv2&response_type=code%20id_token&scope=openid%20profile%20https%3A%2F%2Fwww.office.com%2Fv2%2FOfficeHome.All&response_mode=form_post&nonce=638043457481692972.MDA2NTMxM2YtMDViMC00NzVkLThhODQtYWJiNDMxMGFmOGJhOThmZGZmZjgtZDM1NS00MGNkLTlmOTItMzUzMjcwNWU3MzQ5&ui_locales=en-GB&mkt=en-GB&client-request-id=33238fee-b898-48be-855e-a4c9ce530e5c&login_hint=19341A0503%40gmrit.edu.in&msafed=0&prompt=none&state=MQskM_Vl7-XCTeklnJxpnIOY9_EwKGqg2WYILWJfI99uXXKIJ2ylzB3p8KuBxJk8-oSIVcbqAy6zwtn89QM64mNip-8Tpg7CPO6W9jNtOliF9fLrmpzYFBMeq-VP24XH5_AeODDiuNQs0fL--eTjry-raj3hdTA9T8LLKKgXhdDSePpQ6I-MZYOBPoLIFoqXr3_fa41Okr0HR18iLnaU79jraBD69byMp_DBeDFfeAU1-mvCwj065A6VriOPs_t6bVEdGeIfLrgYP_v_nZaKY2u3zHq7rL8bxmJigltKqghFfqAjeYTJaCsBM-sYQ1ki6hxcMER_JorglhOyZvW3Wm_FEvO-BFKrxDVoaYbTRgX4Ut8_g5DZ3Yy0mGi6-0Dg&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=6.16.0.0" class="nav-link innavlink selectnavlink text-small pb-0 uc_link">Web Mail</a></li>
+                                    
+																	</ul>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+
+								</ul>
+							</div>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+
+
+<section class="mobileNavbar">
+	<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white py-1 shadow-sm ">
+
+		<a class="navbar-brand" href="./index.php">
+			<img src="images/logo.jpg" style="height:40px;width: auto;" alt="GMRIT LOGO">
+		</a>
+		<button type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"> <span class="navbar-toggler-icon"></span> </button>
+		<div id="navbarContent" class="collapse navbar-collapse">
+			<ul class="navbar-nav  ml-auto">
+				<!-- Home list -->
+				<li class="nav-item"><a href="index.php" class="nav-link font-weight-bold text-uppercase">Home</a>
+				</li>
+				<li class="nav-item"><a href="about.php" class="nav-link font-weight-bold text-uppercase">About</a></li>
+				<!-- Accreditations -->
+				<li class="nav-item"><a href="accreditations.php" class="nav-link font-weight-bold text-uppercase">Accreditations</a></li>
+				<!-- Notifications -->
+				<li class="nav-item"><a href="index.php#notifications" class="nav-link font-weight-bold text-uppercase">Notifications</a></li>
+
+				<!-- Payments -->
+				<li class="nav-item"><a href="./payments/" target="_blank" class="nav-link font-weight-bold text-uppercase">Online Payments</a></li>
+				
+				<!-- Accreditations -->
+				<li class="nav-item"><a href="placements.php" class="nav-link font-weight-bold text-uppercase">Placements</a></li>
+				<!-- Governance list -->
+				<li class="nav-item dropdown megamenu"><a id="megamneu" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle font-weight-bold text-uppercase">Governance</a>
+					<div aria-labelledby="megamneu" id="navbar-goverance-dropdown" class="dropdown-menu border-0 p-0 m-0">
+						<div class="container">
+							<div class="row bg-white rounded-0 m-0 shadow-sm ">
+								
+								<div class="col-lg-6">
+									<div class="p-4">
+										<div class="row ">
+											<div class="col-lg-6 mb-4 bg-white">
+												<ul class="list-unstyled">
+													<li class="nav-item"><a href="autonomy.php" class="nav-link text-small pb-0">Overview</a></li>
+													<li class="nav-item"><a href="highlight_autonomy.php" class="nav-link text-small pb-0">Highlights of Autonomy</a></li>
+													<li class="nav-item"><a href="governance.php" class="nav-link text-small pb-0 ">Governance Committees</a></li>													
+													<li class="nav-item"><a href="./academic_regulations.php" class="nav-link text-small pb-0 uc_link">Academic Regulations</a></li>													
+													<li class="nav-item"><a href="#" class="nav-link text-small pb-0 uc_link">UGC Undertaking</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<!-- Programs List -->
+				<li class="nav-item dropdown megamenu"><a id="megamneu" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle font-weight-bold text-uppercase">Programs</a>
+					<div aria-labelledby="megamneu" id="navbar-programs-dropdown" class="dropdown-menu border-0 p-0 m-0">
+						<div class="container">
+							<div class="row bg-white rounded-0 m-0 shadow-sm ">
+
+								<div class="col-lg-6 col-md-7 ">
+									<div class="p-4">
+										<div class="row">
+											<div class="col-lg-4 mb-4">
+												<h6 class="font-weight-bold text-uppercase" style="text-align:left;">UNDERGRADUATE</h6>
+												<ul class="list-unstyled">
+
+																		<!--<li class="nav-item"><a href="#" class="nav-link  innavlink selectnavlink text-small pb-0 ">Overview</a></li>-->
+																		<li class="nav-item"><a href="department.php?code=chem" class="nav-link  text-small pb-0 ">Chemical Engineering</a>
+																		</li>
+																		<li class="nav-item"><a href="department.php?code=civil" class="nav-link  text-small pb-0 ">Civil Engineering
+																			</a></li>
+																		<li class="nav-item"><a href="department.php?code=cse" class="nav-link  text-small pb-0 ">Computer Science and Engineering
+																			</a>
+																		</li>
+																		<li class="nav-item"><a href="department.php?code=eee" class="nav-link  text-small pb-0 ">Electrical and Electronics Engineering
+																			</a></li>
+																		<li class="nav-item"><a href="department.php?code=ece" class="nav-link  text-small pb-0 ">Electronics and Communication Engineering
+																			</a></li>
+																					</a></li>
+																		<li class="nav-item"><a href="department.php?code=mech" class="nav-link text-small pb-0 ">Mechanical Engineering
+																			</a></li>
+																		<li class="nav-item"><a href="department.php?code=it" class="nav-link text-small pb-0">Information Technology</a>
+																		</li>
+																		<li class="nav-item"><a href="department.php?code=AIDS" class="nav-link text-small pb-0 ">CSE
+																				(Artificial Intelligence & Data Science)</a></li>
+																		<li class="nav-item"><a href="department.php?code=AIML" class="nav-link text-small pb-0 ">CSE
+																				(Artificial Intelligence & Machine Learning)</a></li>
+																		<li class="nav-item"><a href="honors_and_minors.php" class="nav-link text-small pb-0">Honors
+																				and Minor Degrees</a></li>
+																	</ul>
+											</div>
+											<div class="col-lg-4 mb-4">
+												<h6 class="font-weight-bold text-uppercase">POSTGRADUATE</h6>
+												<ul class="list-unstyled">
+													<li class="nav-item"><a href="https://gmrit.edu.in/pgOverview.php" class="nav-link text-small pb-0">Overview</a></li>
+													<li class="nav-item"><a href="postgraduation.php?code=cse" class="nav-link text-small pb-0 uc_link">Computer Science and Engineering</a></li>													
+													<li class="nav-item"><a href="postgraduation.php?code=pi" class="nav-link text-small pb-0 uc_link">Power and Industrial												Drives</a>													</li>
+													
+													<li class="nav-item"><a href="postgraduation.php?code=te" class="nav-link text-small pb-0 uc_link">Transportation Engineering </a>
+													</li>
+													<li class="nav-item"><a href="postgraduation.php?code=vlsi" class="nav-link text-small pb-0 uc_link">VLSI and Embedded Systems
+															Design</a>
+													</li>
+													<li class="nav-item"><a href="postgraduation.php?code=thermal" class="nav-link text-small pb-0 uc_link">Thermal Engineering </a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<!-- Resources list -->
+				<li class="nav-item dropdown megamenu"><a id="megamneu" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle font-weight-bold text-uppercase">Resources</a>
+					<div aria-labelledby="megamneu" id="navbar-resources-dropdown" class="dropdown-menu border-0 p-0 m-0">
+						<div class="container">
+							<div class="row bg-white rounded-0 m-0 shadow-sm ">
+								
+								<div class="col-lg-6">
+									<div class="p-4">
+										<div class="row ">
+											<div class="col-lg-6 mb-4 bg-white">
+												<ul class="list-unstyled">
+
+													<li class="nav-item">
+													Human Resources <br>
+														<ul class="list-unstyled">
+															<li class="nav-item"><a href="facultydirectory.php" class="nav-link text-small pb-0 ">Faculty Directory</a></li>
+															<li class="nav-item"><a href="#" download="faculty_incentives.pdf" class="nav-link text-small pb-0 uc_link">Faculty Incentives</a></li>
+															<li class="nav-item"><a href="#" download="hr_policies.pdf" class="nav-link text-small pb-0 uc_link">H.R. Policies</a></li>
+															<li class="nav-item"><a href="#" download="./PDFs/faculty/Updated_PhD_Policy.pdf" class="nav-link text-small pb-0 uc_link">Updated Ph.D. Policy</a></li>
+															<li class="nav-item"><a href="#" download="careers.php" class="nav-link text-small pb-0 uc_link">Careers@GMRIT</a></li>
+
+														</ul>
+													</li>
+													<br>
+													<li class="nav-item">
+													Physical Resources <br>
+														<ul class="list-unstyled">
+															<li class="nav-item"><a href="labs.php" class="nav-link text-small pb-0">Labs</a></li>
+															<li class="nav-item"><a href="library.php" class="nav-link text-small pb-0">Library</a></li>
+															<li class="nav-item"><a href="#" class="nav-link text-small pb-0 uc_link">Amenities</a></li>
+															<li class="nav-item"><a href="infrastructure.php" class="nav-link text-small pb-0 uc_link">Infrastructure</a></li>
+														</ul>
+														
+													</li>
+													<br>
+													<li class="nav-item" >
+													Online Resources <br>
+													<ul class="list-unstyled">
+													<li class="nav-item"><a href="https://lcs.gmrit.edu.in/" class="nav-link text-small pb-0 uc_link">Lecture Capturing System</a></li>
+													<li class="nav-item"><a target="_blank"href="https://www.coursera.org/" target="_blank" class="nav-link text-small pb-0 uc_link">Coursera</a></li>
+													</ul>
+													</li>
+
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<!-- Examination list -->
+				<li class="nav-item dropdown megamenu"><a id="megamneu" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle font-weight-bold text-uppercase">Examinations</a>
+					<div aria-labelledby="megamneu" id="navbar-examinations-dropdown" class="dropdown-menu border-0 p-0 m-0">
+						<div class="container">
+							<div class="row bg-white rounded-0 m-0 shadow-sm">
+							
+								<div class="col-lg-6">
+									<div class="p-4">
+										<div class="row ">
+											<div class="col-lg-6 mb-4 bg-white">
+												<ul class="list-unstyled">
+													<li class="nav-item"><a href="./examination/index.php" class="nav-link text-small pb-0 uc_link">Overview</a></li>
+													<li class="nav-item"><a href="./examination/results.php" class="nav-link text-small pb-0 uc_link">Results</a></li>
+													<li class="nav-item"><a href="./examination/timetables.php" class="nav-link text-small pb-0 uc_link">Timetables</a></li>
+													<li class="nav-item"><a href="./examination/notifications.php" class="nav-link text-small pb-0 uc_link">Notifications</a></li>													
+													<li class="nav-item"><a href="./examination/academic_calendars.php" class="nav-link text-small pb-0 uc_link">Academic Calendars</a></li>																										
+													<li class="nav-item"><a href="./examination/docs/Autonomy_Regulations_Examinations.pdf" target="_blank" class="nav-link text-small pb-0 uc_link">Examinations Regulations														</a></li>
+													<li class="nav-item"><a href="./examination/Transitory_Regulations.pdf" target="_blank" class="nav-link text-small pb-0 uc_link">Transitory Regulations</a>													</li>
+													<li class="nav-item"><a href="" target="_blank" class="nav-link text-small pb-0 uc_link">Open Elective Registrations</a></li>
+													<li class="nav-item"><a href="http://117.239.50.211/wbc/index.aspx" target="_blank" class="nav-link text-small pb-0 uc_link">Old Question Papers</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<!-- Placements list -->
+				<li class="nav-item dropdown megamenu"><a id="megamneu" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle font-weight-bold text-uppercase">Research</a>
+					<div aria-labelledby="megamneu" id="navbar-placements-dropdown" class="dropdown-menu border-0 p-0 m-0">
+						<div class="container">
+							<div class="row bg-white rounded-0 m-0 shadow-sm ">
+							
+								<div class="col-lg-6">
+									<div class="p-4">
+										<div class="row ">
+											<div class="col-lg-6 mb-4 bg-white">
+												<ul class="list-unstyled">
+													<li class="nav-item"><a href="research.php" class="nav-link text-small pb-0 uc_link">Overview</a></li>
+													<li class="nav-item"><a href="researchcell.php"  class="nav-link text-small pb-0 uc_link">Research & Development Cell</a></li>
+													<li class="nav-item"><a href="researchboard.php" class="nav-link text-small pb-0 uc_link">Research Advisory Board</a></li>
+													<li class="nav-item"><a href="https://gmrit.irins.org/" target="_blank" class="nav-link innavlink selectnavlink text-small pb-0 uc_link">Faculty Research Profiles</a></li>
+													<li class="nav-item"><a href="researchGroups.php" class="nav-link text-small pb-0 uc_link">Research Groups</a></li>
+													<li class="nav-item"><a href="publications.php" class="nav-link text-small pb-0 uc_link">Faculty Publications</a></li>
+													<li class="nav-item"><a href="research-projects.php" class="nav-link text-small pb-0 uc_link">Research Projects</a></li>
+													<li class="nav-item"><a href="seminars.php" class="nav-link text-small pb-0 uc_link">Seminar & Conference Notifications</a></li>
+													<li class="nav-item"><a href="./PDFs/research/grants_received.pdf" target="_blank" class="nav-link innavlink selectnavlink text-small pb-0 uc_link">Grants Received</a></li>
+													<li class="nav-item"><a href="labs.php"  class="nav-link text-small pb-0 uc_link">Research Labs</a></li>
+													<li class="nav-item"><a href="patents.php"  class="nav-link text-small pb-0 uc_link">Patents</a></li>
+													<li class="nav-item"><a href="mous.php"  class="nav-link text-small pb-0 uc_link">MOUs</a></li>
+
+													
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<!-- Life@Gmrit list -->
+				<li class="nav-item dropdown megamenu"><a id="megamneu" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle font-weight-bold text-uppercase">Life@GMRIT</a>
+					<div aria-labelledby="megamneu" id="navbar-life@gmrit-dropdown" class="dropdown-menu border-0 p-0 m-0">
+						<div class="container">
+							<div class="row bg-white rounded-0 m-0 shadow-sm ">
+								
+								<div class="col-lg-6">
+									<div class="p-4">
+										<div class="row ">
+											<div class="col-lg-6 mb-4 bg-white">
+												<ul class="list-unstyled">
+											
+													<li class="nav-item"><a href="life.php" class="nav-link innavlink selectnavlink text-small pb-0 uc_link">Overview</a></li>
+													<li class="nav-item"><a href="newsletter.php" class="nav-link innavlink selectnavlink text-small pb-0 uc_link">Campus News Letter</a></li>
+													<li class="nav-item"><a href="techmag.php" class="nav-link innavlink selectnavlink text-small pb-0 uc_link">TechMag</a></li>
+													<li class="nav-item"><a href="hostels.php" class="nav-link text-small pb-0 uc_link">Hostels</a></li>																										
+													<li class="nav-item"><a href="infrastructure.php" class="nav-link text-small pb-0 uc_link">Infrastructure at a glance</a>													</li>
+													<li class="nav-item"><a href="./studentActivities/index.php" target="_blank" class="nav-link innavlink selectnavlink text-small pb-0 uc_link">Student Activities</a></li>											</li>
+													<li class="nav-item"><a href="./Documents/student_incentives.pdf" download="student_incentives.php" class="nav-link text-small pb-0 uc_link">Student Incentives</a></li>
+													<li class="nav-item"><a href="sports.php" class="nav-link text-small pb-0 uc_link">Sports
+															Facilities & Achievements</a></li>
+														
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<!-- ALUMNI -->
+				<li class="nav-item"><a href="http://115.241.205.4/alumni/index.aspx" target="_blank" class="nav-link font-weight-bold text-uppercase">ALUMNI</a></li>
+				<!-- Logins -->
+				<li class="nav-item dropdown megamenu"><a id="megamneu" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle font-weight-bold text-uppercase">Login</a>
+					<div aria-labelledby="megamneu" id="navbar-life@gmrit-dropdown" class="dropdown-menu border-0 p-0 m-0">
+						<div class="container">
+							<div class="row bg-white rounded-0 m-0 shadow-sm ">								
+								<div class="col-lg-6">
+									<div class="p-4">
+										<div class="row ">
+											<div class="col-lg-6 mb-4 bg-white">
+												<ul class="list-unstyled">										
+		
+													<li class="nav-item"><a href="https://gmrit.collpoll.com/" target="_blank" class="nav-link text-small pb-0 uc_link">Student Login</a></li>
+													<li class="nav-item"><a href="https://gmrit.collpoll.com/" target="_blank" class="nav-link text-small pb-0 uc_link">Parent Login</a></li>
+													<li class="nav-item"><a href="https://gmrit.collpoll.com/" target="_blank" class="nav-link text-small pb-0 uc_link">Staff Login</a></li>
+													<li class="nav-item"><a href="https://login.microsoftonline.com/" target="_blank" class="nav-link text-small pb-0 uc_link">Webmail</a></li>
+													
+														
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				
+
+			</ul>
+			<div id="search-autocomplete" class="form-outline" style="display:flex;">
+				<input class="form-control me-2" id="searchinput" type="search" placeholder="Search" aria-label="Search" style="width:auto">
+				<div class="btn-group">
+					<button type="submit" class="btn btn-primary" style="display:flex;margin-left: 8px;" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Search
+					</button>
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuLink" id="searchDropDown">
+					</div>
+				</div>
+			</div>
+	</nav>
+</section>	
+	<!-- <div class="social">
+		<div class="box">
+			<div class="single-box" style="background: #3b5998">
+				<a href="https://www.facebook.com/GMRITofficial/" target="_blank">
+					<p>Follow us on<i class="fa fa-facebook-square"></i></p>
+				</a>
+			</div>
+			<div class="single-box" style="background: #4099ff">
+				<a href="#">
+					<p>Follow us on<i class="fa fa-twitter-square"></i></p>
+				</a>
+			</div>
+			<div class="single-box" style="background: #053eff">
+				<a href="https://www.linkedin.com/school/gmr-institute-of-technology/?originalSubdomain=in" target="_blank">
+					<p>Follow us on<i class="fa fa-linkedin-square"></i></p>
+				</a>
+			</div>
+			<div class="single-box" style="background: #ff0000">
+				<a href="https://www.youtube.com/channel/UC8g7hz4oXFzXNryt8h1gRPw?app=desktop" target="_blank">
+					<p>Follow us on<i class="fa fa-youtube-square"></i></p>
+				</a>
+			</div>
+			<div class="single-box" style="background: #4099ff">
+				<a href="https://www.instagram.com/gmrit_rajam/?hl=en" target="_blank">
+					<p>Follow us on<i class="fab fa-instagram-square"></i></p>
+				</a>
+			</div>
+			<div class="single-box" style="background: #34526f">-->
+	<!--	<a href=""><p>Follow us on<i class="fa fa-tumblr-square"></i></p></a>-->
+	<!--</div>-->
+	<!-- </div>
+	</div> 
+	<div class="hero">
+		<div class="confetti">
+			<div class="btn1 bt1"></div>
+			<div class="btn1 bt2"></div>
+			<div class="btn1 bt3"></div>
+			<div class="btn1 bt4"></div>
+		</div>
+-->
+<!-- Home page title on image -->
+<div>
+			<img src="./images/blocks/Landing.png" style="height:85vh;width:100vw;object-fit:cover;">
+		</div>
+		<div style="height:9rem;background-color:rgb(0,0,0,0.6);color:white;position:absolute;top:50vh;left:4vw;display:flex;align-items:center;border-radius:9px;" class="starting">
+			<h5 style="font-size:2rem;padding-left:20px;">W<span style="font-size:1.7rem;">elcome to</span><br> <span id="colorChange1" style="font-size:2.2rem;font-weight:900;">G</span><span id="colorChange2" style="font-size:2.2rem;font-weight:900;">M</span><span id="colorChange3" style="font-size:2.2rem;font-weight:900;">R</span> Institute Of Technology, Rajam</h5>
+		
+		</div>
+	<!-- Code for events link 1 start -->
+
+	<!--	<div >
+			<img src="./images/blocks/Landing.png" style="height:85vh;width:100vw;object-fit:cover;">
+		</div>
+		<div style="height:3rem;background-color:rgb(0,0,0,0.8);color:white;position:absolute;top:29vh;left:30vw;display:flex;align-items:center;border-radius:9px;" class="starting">
+			<a href="http://115.241.205.4/feedback/graduationday/index.aspx" target="_blank"><h6 style="font-size:1rem;padding-left:10px;font-color:red;margin-left:80px;"> <span id="colorChange1" style="font-size:1.2rem;font-weight:600;color:white">Graduation Day-2023 Registration Link</span></h6></a>
+		
+		</div> -->
+		<!-- Code for Events Link 1 End-->
+
+		<!-- Code for events link 2 start 
+
+	-	<div>
+			<img src="./images/blocks/Landing.png" style="height:85vh;width:100vw;object-fit:cover;">
+		</div>
+		<div style="height:10%;background-color:rgb(9,71,178,0.8);color:white;position:absolute;top:24vh;left:32vw;display:flex;align-items:center;border-radius:9px;" class="starting">
+			<a href="https://gmrit.edu.in/PDFs/admissions/1 yr 2023 classwork advt 06.09.123.pdf" target="_blank"><h6 style="font-size:1rem;padding-left:5px;margin-left:5px;"> <span id="colorChange1" style="font-size:1.2rem;font-weight:600;color:white">Commencement of 1st B.Tech. Classwork & Parents Meet. Click here for details...</span></h6></a>
+		
+		</div>
+		-->
+		<!--Code for Events Link 2 End-->
+
+	</div>
+	
+	<style>
+		/*To hide the number top and down arrows*/
+		/* Chrome, Safari, Edge, Opera */
+		input::-webkit-outer-spin-button,
+		input::-webkit-inner-spin-button {
+			-webkit-appearance: none;
+			margin: 0;
+		}
+
+		/* Firefox */
+		input[type=number] {
+			-moz-appearance: textfield;
+		}
+		.sidebar-head{
+		background: linear-gradient(45deg, rgb(200, 208, 239), rgb(0, 161, 255)) !important;
+		}
+		.sidebar-head img{
+		height:1.3rem;
+		width:auto;
+		}
+		
+	</style>
+	<!-- Right Side Bar -->
+	
+	<div class="container rightsidebar mr-auto" id="rightsidebar">
+		<ul class="sidebar-items">
+			<li class="sidebar-item">
+				<p class="sidebar-head head1" id="head1"><img src="https://www.gmrit.edu.in/images/downloadIcon.png" width=70> </p>
+				<div class="form1" id="form1">
+					<form class="box" action="#" onsubmit="return validate('brochure');">
+						<!-- style="border-bottom:1px solid grey;" -->
+						<h3 class="text-center mb-3">Download</h3>
+						Name <input type="text" class="data" name="name" id="brochure_name"> <br>
+						Email <input type="email" class="data" name="email" id="brochure_email"> <br>
+						Phone Number <input type="number" class="data" name="contact" id="brochure_contact"> <br>
+						<input type="submit" class="btn btn-outline-info" name="" id="" value="Submit">
+					</form>
+				</div>
+			</li>
+			<li class="sidebar-item">
+				<p class="sidebar-head head2" id="head2"><img src="	https://www.gmrit.edu.in/images/enquireNow.png" width=70></p>
+				<div class="form2" id="form2">
+					<form class="box" action="#" onsubmit="return validate('enquiry');">
+						<h3 class="text-center mb-3">Enquire Details</h3>
+						Name <input type="text" class="data" name="name" id="enquiry_name"> <br>
+						Email <input type="email" class="data" name="email" id="enquiry_email"> <br>
+						Phone Number <input type="number" class="data" name="contact" id="enquiry_contact"> <br>
+						Enquiry <textarea rows="2" class="data" name="enquiry" id="enquiry_enquiry"></textarea>
+						<input type="submit" class="btn btn-outline-info" name="" id="" value="Submit">
+					</form>
+				</div>
+			</li>
+			
+			<a href="feedback.php">
+				<li class="sidebar-item">
+					<p class="sidebar-head"><img src="https://www.gmrit.edu.in/images/feedback.png" width=60></p>
+				</li>
+			</a>
+			<a href="https://gmrit.edu.in/bgc-payment" target="_blank">
+				<li class="sidebar-item">
+					<p class="sidebar-head" style="font-size:0.6rem;font-weight:800;padding-top:10px;padding-bottom:10px;">Student Verification</p>
+				</li>
+			</a>
+			<a href="http://115.241.205.4/alumni/Entrepreneurs/overview.aspx" target="_blank">
+				<li class="sidebar-item">
+					<p class="sidebar-head" style="font-size:0.6rem;font-weight:800;padding-top:10px;padding-bottom:10px;">NISP / EDC</p>
+				</li>
+			</a>
+
+			<a href="https://nad.digilocker.gov.in/" target="_blank">
+				<li class="sidebar-item">
+					<p class="sidebar-head" style="font-size:0.6rem;font-weight:800;padding-top:10px;padding-bottom:10px;">NAD DigiLocker</p>
+				</li>
+			</a>
+			<!--
+			<a href="feedback.php">
+				<li class="sidebar-item">
+					<p class="sidebar-head"><img src="images/digilocker.png" width=60></p>
+				</li>
+			</a>
+	-->
+	
+		</ul>
+
+	</div>
+	
+	
+
+	<div class="Scroll-Marquee">
+  <div class="Scroll-Marquee-content">
+  
+
+  <a target="_blank" href="PDFs/Rankings/DQ CMR Emplyability Survey Sept 2023.pdf" target="_blank" class="link-notification parent-notification"><div class="triangle-left"></div><div class="link-notification Scroll-Marquee-tag">Ranked 27th among the private colleges and Overall Rank is 32nd at the country level by Data Quest - September, 2023.</div><div class="triangle-right"></div></a>  
+  <a target="_blank" href="PDFs/Rankings/11th Chronicle Engg Colleges Survey 2023.pdf" target="_blank" class="link-notification parent-notification"><div class="triangle-left"></div><div class="link-notification Scroll-Marquee-tag">Ranked 12th in the country with A++ grade in the 11th Chronicle All India Engg colleges survey-2023.</div><div class="triangle-right"></div></a> 
+  <a target="_blank" href="https://bestcolleges.indiatoday.in/rankings/engineering" class="link-notification parent-notification"><div class="triangle-left"></div><div class="link-notification Scroll-Marquee-tag">Ranked 76 at National level in India Today's MDRA Best Colleges (Engineering) ranking, July-2023.</div><div class="triangle-right"></div></a>
+  <a target="_blank" href="https://www.competitionreview.in/uploads/1686715978CSR-GHRDC_Engineering_Colleges_Survey_2023.pdf" class="link-notification parent-notification"><div class="triangle-left"></div><div class="link-notification Scroll-Marquee-tag">
+    	  Ranked 3rd in the state of AP and ranked 16th among the “CSR-GHRDC - Engineering Colleges Survey - 2023” at the country level, July-2023
+    	</div><div class="triangle-right"></div></a>
+  <a target="_blank" href="https://www.nirfindia.org/2022/EngineeringRanking.html" class="link-notification parent-notification"><div class="triangle-left"></div><div class="link-notification Scroll-Marquee-tag">Ranked 188 at National level in NIRF ranking, MHRD, New Delhi, July 2022.</div><div class="triangle-right"></div></a>
+    
+    	<a target="_blank" href="https://www.nirfindia.org/2022/EngineeringRanking.html" class="link-notification parent-notification"><div class="triangle-left"></div><div class="link-notification Scroll-Marquee-tag">Graded AAAA+ by Career 360 Magazine for the year 2022 and among the top 5 institutions in the state of AP that are graded AAAA+, June 2022</div><div class="triangle-right"></div></a>
+    
+    	
+<!--     
+    <a target="_blank" href="https://gmrit.edu.in/images/ads/Eenadu%2023-09-2022%20(GMRIT%20Advertisement).jpg" class="link-notification parent-notification"><div class="triangle-left"></div><div class="link-notification Scroll-Marquee-tag">
+    	  Walk-in Interviews for various positions. Click here for details...
+    	</div><div class="triangle-right"></div></a> -->
+     
+    
+				 <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeAgGDV6ZPj3RYEA08I_4vbDwbHU5cd14k8PSkWCDD9HZ0t0w/viewform?c=0&w=1" class="link-notification"><div class="link-notification Scroll-Marquee-tag">Participate in SWACHH BHARAT ABHIYAN @ GMRIT campus-  For details</div></a>
+			  </div>
+			</div>
+<style>
+.link-notification{
+  text-decoration:none;
+  color:#fff;
+}
+.Scroll-Marquee {
+ background: #3687f1;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 1em;
+  color: #fff;
+  font-weight: 200;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -o-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  overflow: hidden;
+  width:100%;
+}
+.Scroll-Marquee-content {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-animation: marquee 20s linear infinite running;
+  -moz-animation: marquee 20s linear infinite running;
+  -o-animation: marquee 20s linear infinite running;
+  -ms-animation: marquee 20s linear infinite running;
+  animation: marquee 20s linear infinite running;
+}
+.Scroll-Marquee-content:hover {
+  -webkit-animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  -o-animation-play-state: paused;
+  -ms-animation-play-state: paused;
+  animation-play-state: paused;
+}
+.Scroll-Marquee-tag {
+  min-width:740px;
+  height:50px;
+/*   margin: 0 0.5em; */
+  padding: 0.8em;
+  background: #00327Aff;;
+  display: -webkit-inline-box;
+  display: -moz-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-box;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -o-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -o-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s easate(-50%);e;
+  -o-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.Scroll-Marquee-tag:hover {
+/*   transform: scale(1.02); */
+  background:#103e81d4;
+  cursor: pointer;
+
+}
+@-moz-keyframes marquee {
+  0% {
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -o-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
+  }
+}
+@-webkit-keyframes marquee {
+  0% {
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -o-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
+  }
+}
+@-o-keyframes marquee {
+  0% {
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -o-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translate(-50%);
+    -moz-transform: transl
+    -o-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
+  }
+}
+@keyframes marquee {
+  0% {
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -o-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
+  }
+}
+
+
+ 
+
+.parent-notification{
+  display:flex;
+  justify-content:center;
+}
+.notification-text{
+  width:250px;
+  background:#00327Aff;
+}
+.triangle-left {
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-right: 50px solid #00327Aff;
+	border-bottom: 25px solid transparent;
+}
+
+.triangle-right {
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 50px solid #00327Aff;
+	border-bottom: 25px solid transparent;
+}
+
+	</style>
+	<!-- Right Side Bar Ends -->
+	<!--
+Start About Section
+==================================== -->
+	<section class="about-shot-info">
+		<div class="container">
+			<div class="row text-justify">
+				<div class="col-md-6 mt-20 exploreText" data-aos="fade-right">
+					<h2>Explore Your Potential<br>with <b><span style="color:#FAB210ff;">GMR Institute
+								of Technology</span></b></h2>
+					<p>Welcome to GMR Institute of Technology (GMRIT). Established in the year 1997 by GMR Varalakshmi
+						Foundation – the
+						corporate social responsibility arm of GMR Group – GMRIT offers aspiring engineers high quality
+						technical education.</p>
+					<p>Located in Rajam, Vizainagaram district of Andhra Pradesh, GMRIT provides its learning community
+						state-of-the-art
+						facilities, infrastructure and a competent faculty. The Institute encourages collaborative
+						learning between industry and
+						academia as a means of reinforcing its curriculum with practical and real world experiences. It
+						is this emphasis on a
+						well-rounded education that makes GMRIT a preferred institute among engineering colleges in
+						India.</p>
+				</div>
+				<div class="col-md-1"></div>
+
+				<div class="col-md-5 my-auto">
+
+					<div class="ranking_container" data-aos="fade-left">
+						<div class="ranking_card-stack">
+							<button class="buttons ranking_prev">
+								<i class="fa-solid fa-angle-left"></i>
+							</button>
+							<ul class="ranking_card-list">
+							<li class="ranking_card d-block">
+									<div class="row headLine">
+										<div class="col-6" id="logoHeader">
+											<h5 style="color: purple;">Ranking</h5>
+										</div>
+										<div class="col-6 " id="logoHeader">
+											<img src=" ./images/logo.jpg" alt="GMRIT" class="CardGmritLogo">
+										</div>
+									</div>
+									<p>Ranked 27th among the private colleges and Overall Rank is 32nd at the country level by Data Quest - September, 2023.</p>
+									<div class="row">
+										<div class="col-8">
+											<p style="font-weight: bold;font-size:1rem;text-align:start;" class="rankingBy">Data Quest Employability Ranking</p>
+										</div>
+										<div class="col-4">
+											<img src="images/ranking/dataquest.png" alt="" class="ranking_logo">
+										</div>
+									</div>
+								</li>
+								<li class="ranking_card d-block">
+									<div class="row">
+										<div class="col-6">
+											<h5 style="color: purple;">Ranking</h5>
+										</div>
+										<div class="col-6">
+											<img src="./images/logo.jpg" alt="GMRIT" class="CardGmritLogo">
+										</div>
+									</div>
+									<p>Ranked 88th at all India level including all premier institutes and universities and 62nd among the Top Private Engineering colleges in the country and 36th in the South zone.</p>
+									
+									<div class="row">
+										<div class="col-8">
+											<p style="font-weight: bold;">The Week-August, 2022</p>
+										</div>
+										<div class="col-4">
+											<img src="images/ranking/theWeek.png" target="_blank" alt="" class="ranking_logo">
+										</div>
+									</div>
+								</li>
+
+								
+								
+								<!--<li class="ranking_card d-block">						-->
+								<!--	<div class="row">-->
+								<!--	<div class="col-sm-6">-->
+								<!--		<h5 style="color: purple;">Ranking</h5>-->
+								<!--	</div>-->
+								<!--	<div class="col-sm-6">-->
+								<!--		<img src="./images/logo.jpg" alt="GMRIT">-->
+								<!--	</div>-->
+								<!--	</div>-->
+								<!--	<p>Ranked with “AAAAA” rating among the finest private engineering colleges in the South Zone - AP</p>-->
+								<!--	<div class="row">-->
+								<!--		<div class="col-sm-8">-->
+								<!--			<p style="font-weight: bold;font-size:0.9rem">Digital Learning,September 2021</p>-->
+								<!--		</div>-->
+								<!--		<div class="col-sm-4">-->
+								<!--			<img src="images/ranking/" alt="" class="ranking_logo">-->
+								<!--		</div>-->
+								<!--	</div>-->
+								<!--</li>
+								<li class="ranking_card d-block">
+									<div class="row">
+										<div class="col-6">
+											<h5 style="color: purple;">Ranking</h5>
+										</div>
+										<div class="col-6">
+											<img src="./images/logo.jpg" alt="GMRIT" class="CardGmritLogo">
+										</div>
+									</div>
+									<p>Ranked 61th among the Top Private Engineering colleges in the country and 36th in the South zone and 2nd in Andhra Pradesh</p>
+									<div class="row">
+										<div class="col-8">
+											<p style="font-weight: bold;">The Week-August, 2021</p>
+										</div>
+										<div class="col-4">
+											<img src="images/ranking/theWeek.png" alt="" class="ranking_logo">
+										</div>
+									</div>
+								</li>-->
+								<li class="ranking_card d-block">
+									<div class="row">
+										<div class="col-6">
+											<h5 style="color: purple;">Ranking</h5>
+										</div>
+										<div class="col-6">
+											<img src="./images/logo.jpg" alt="GMRIT" class="CardGmritLogo">
+										</div>
+									</div>
+									<p>NIRF-2022 Engineering College Ranking 188th Rank</p>
+									<div class="row">
+										<div class="col-8">
+											<p style="font-weight: bold;text-align:start">NIRF Ranking,MHRD,New Delhi,September 2022</p>
+										</div>
+										<div class="col-4">
+											<img src="images/ranking/nirf.png" alt="" class="ranking_logo">
+										</div>
+									</div>
+								</li>
+							</ul>
+							<button class="buttons ranking_next"><i class="fa-solid fa-angle-right"></i></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<style>
+		@media(max-width:768px) {
+			.CardGmritLogo {
+				height: 3rem !important;
+			}
+
+			.rankingInfo,
+			.rankingBy {
+				font-size: 1rem !important;
+			}
+
+			.ranking_logo {
+				height: 3rem !important;
+			}
+
+			.ranking_card-stack {
+				width: 100% !important;
+			}
+
+			.headLine {
+				display: flex;
+				justify-content: space-around;
+			}
+
+			#logoHeder {
+				width: min-content !important;
+			}
+		}
+	</style>
+	
+	<img src="./images/closingLanding.svg" alt="" style="width:100%">
+
+	<span style="display: flex;justify-content:center;align-items:center">
+	
+		<div class="title">
+			<h2 class="text-center" style="color: #00327Aff;">USP's of GMRIT</h2>
+		</div>
+	</span>
+	<div class="border"></div>
+	<div class="mylightcomponent container-fluid py-3">
+		<div class="light" data-aos="fade-up">
+			<img src="./images/lightBulb.png" alt="">
+		</div>
+		<div class="text1" style="  position: relative;" data-aos="fade-right" >
+			<div class="uspLogo ul1"><img src="./images/icons/icons8-trophy-64.png" />
+			</div>
+			<span>
+				<h3>Best Practices</h3>
+				<p class="lightText">GMRIT being an autonomous institute since 2012, has brought in several best practices in curriculum design, Delivery and assessment to keep up the pace with the dynamic industry requirements.</p><a class="btn btn-danger" href="./highlight_autonomy.php" target="_blank" >Details</a>
+					<!-- The innovative teaching pedagogies are being practiced to establish student centric teaching and learning environment. Digital transformation and the technology integration has been given the top priority to supplement the conventional systems for the holistic growth of the students with quality assurance and sustainability -->
+			</span>
+		</div>
+		<div class="text2" style="  position: relative;" data-aos="fade-left">
+			<div class="uspLogo ul2">
+				<img src="./images/icons/icons8-analyze-64.png" />
+			</div>
+			<span>
+				<h3>Research</h3>
+				<p class="lightText">With a strong belief that Academics and Research has to go hand in hand, GMRIT promotes research culture complementing the academics.
+					Several incentive schemes have been introduced to nurture research culture
+					<!-- and instil the research eco system in the minds of the faculty and students on the campus. -->
+					<!-- With 75% of the faculty members with Ph.D qualification and all the departments being identified as the research centres after having the modern research equipment, enable and motivate the stack holders towards pursing the research. -->
+				</p><a class="btn btn-primary" href="./research.php" target="_blank">Details</a>
+			</span>
+		</div>
+		<div class="text3" style="  position: relative;" data-aos="fade-right">
+			<div class="uspLogo ul3">
+				<img src="./images/icons/icons8-government-64.png" />
+			</div>
+			<span>
+				<h3>MOU's</h3>
+				<p class="lightText">GMRIT emphasizes collaborative learning between industry and academia as a means of reinforcing its curriculum with practical experience relevant to industry needs.
+					Collaboration with the industries and academia makes the students industry ready. 
+					<!-- to get exposed to the industry and research labs in the new emerging areas during the course period in the form of internships and training. -->
+					<!-- Collaboration with foreign universities gives the students an opportunity to experience the cross cultural environment, learn about the contemporary technologies and understand the campus ecosystem that exists in the global picture. -->
+				</p>
+				<a class="btn btn-success" href="./mou.php" target="_blank">Details</a>
+			</span>
+		</div>
+		<div class="text4" style="  position: relative;" data-aos="fade-left">
+			<div class="uspLogo ul4">
+				<img src="./images/icons/icons8-approval-64.png" />
+			</div>
+			<span>
+				<h3>OBE & IQAC</h3>
+				<p class="lightText">All the UG programs being accredited by NBA under tier-1, and the Institute accredited by NAAC, the institute has well established system to implement Outcome Based Education (OBE)
+					<!-- and ensure continuous improvement with a robust Internal Quality Assurance System in place. -->
+					<!-- The governance system involving students and faculty members, Periodic internal auditing for all the academic process and yearly external auditing reinforces and ensures the confidence levels among the stack holders. -->
+				</p><a class="btn btn-primary" href="./accreditations.php" target="_blank">Details</a>
+			</span>
+		</div>
+	</div>
+	<!-- end section -->
+	<section class="counter-wrapper section-sm highlightsComponent ">
+		<div class="container">
+			<div class="col-md-12 text-center">
+				<div class="title">
+					<h2 class="m-3 text-white">Current Info</h2>
+					<div class="border"></div>
+				</div>
+			</div>
+			<div class="higlightRow" data-aos="fade-up">
+				<!-- first count item -->
+				<div class="highlightBlock  m-3">
+					<i class="fas fa-people-group highlightIcon"></i>
+					<a href="department.php?code=CSE">
+						<div class="counters-item">
+							<div  class="highlightInfo">
+								<span class="counter" data-count="4020">0</span>
+							</div>
+							<h3>Student strength</h3>
+						</div>
+					</a>
+				</div>
+				<style>
+					.counters-item i {
+						color: #000;
+					}
+				</style>
+				<!-- end first count item -->
+				<!-- second count item -->
+				<div class="highlightBlock impHighlight box-shadow m-3">
+					<i class="fas fa-user-graduate highlightIcon"></i>
+					<a href="">
+						<div class="counters-item">
+							<div class="highlightInfo">
+								<span class="counter" data-count="10819">0</span>
+							</div>
+							<h3>Alumni as on Date</h3>
+						</div>
+					</a>
+				</div>
+				<!-- end second count item -->
+				<!-- third count item -->
+				<div class="highlightBlock m-3">
+			<i class="fa-solid fa-indian-rupee-sign highlightIcon"></i>
+					<a href="placements.php">
+						<div class="counters-item kill-border">
+							<div class="highlightInfo">
+								</i> <span class="counter" data-count="40">0</span> <strong>CTC</strong>
+							</div>
+							<h3>Highest Package</h3>
+						</div>
+					</a>
+				</div>
+			</div> <!-- end row -->
+		</div> <!-- end container -->
+
+	</section> <!-- end section -->
+	<!-- Flip cards start -->
+	<section class="galleryComponent">
+		<!-- <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="max-height: 100%; width: 100%;" class="GallerysvgBack">
+			<path d="M-2.82,13.32 C12.97,208.72 464.44,-84.37 512.42,34.03 L500.00,150.00 L-38.37,227.47 Z" style="stroke: none; fill:#3687f1;"></path>
+		</svg> -->
+		<h2 class="text-center" style="color:#fff;padding-top:3rem">Gallery</h2>
+		<div class="border"></div>
+		<div class="container d-flex flex-wrap pb-5 justify-content-center align-items-center">
+            <div class="image-container--circle image-container--circle1"  data-aos="fade-right">
+			    <a href="gallery.php?page=facilities">
+    				<div class="content">
+    					<div class="text">
+    						<h3>Event Gallery</h3>
+    					</div>
+    				</div>
+			    </a>
+    		</div>
+            <div class="image-container--circle image-container--circle2"  data-aos="fade-up">
+			    <a href="gallery.php?page=facilities">
+    				<div class="content">
+    					<div class="text">
+    						<h3>Placement Gallery</h3>
+    					</div>
+    				</div>
+    		    </a>
+    		</div>
+			<div class="image-container--circle image-container--circle3" data-aos="fade-left">
+    			<a href="gallery.php?page=facilities">
+        				<div class="content">
+        					<div class="text">
+        						<h3>Facilities Gallery</h3>
+        					</div>
+        				</div>
+    			</a>
+    		</div>
+	</section>
+	<!-- Flip card end -->
+	<!-- Start Testimonial
+=========================================== -->
+	<section class="testimonialComponent">
+		<!-- <h2 class="text-center testiHead">Distinguished Guests</h2> -->
+		<h2 class="text-center" style="color:#fff;padding-top:3rem">Distinguished Guests</h2>
+		
+		<div class="title text-center"  data-aos="fade-up">
+			<!-- <h2 style="color:#fff;padding-top:3rem">Distinguished Guests</h2> -->
+			
+			<div class="border"></div>
+		</div>
+		<div class="testiCarousel" id="testimonials">
+			<div>
+				<div class="testicard">
+					<div class="testiImg">
+						<img src="./images/APJ.jpeg" alt="">
+					</div>
+					<div class="testiText">
+						<i class="fas fa-quote-left"></i>
+						<blockquote>Delighted to visit GMRIT</blockquote>
+						<blockquote>Inspring Quote <br>
+							&nbsp;&nbsp;&nbsp;&nbsp; <strong>Human mind doesn't work without a challenge.</strong></blockquote>
+						<span>
+							<h5>Dr.A. P. J. Abdul Kalam</h5>
+							<h6>Former President of India</h6>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div class="testicard">
+					<div class="testiImg">
+						<img src="./images/narayanamurthy.jpg" alt="">
+					</div>
+					<div class="testiText">
+						<i class="fas fa-quote-left"></i>
+						<blockquote>It was exhilarating heartwarming and aspiring to see this heaven on earth with high class education.</blockquote>
+						<span>
+							<h5>N. R. Narayana Murthy</h5>
+							<h6>Founder of Infosys</h6>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div class="testicard">
+					<div class="testiImg">
+						<img src="./images/APJ.jpeg" alt="">
+					</div>
+					<div class="testiText">
+						<i class="fas fa-quote-left"></i>
+						<blockquote>Delighted to visit GMRIT</blockquote>
+						<blockquote>Inspring Quote <br>
+							&nbsp;&nbsp;&nbsp;&nbsp; <strong>Human mind doesn't work without a challenge.</strong></blockquote>
+						<span>
+							<h5>Dr.A. P. J. Abdul Kalam</h5>
+							<h6>Former President of India</h6>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div class="testicard">
+					<div class="testiImg">
+						<img src="./images/cp.jpeg" alt="">
+					</div>
+					<div class="testiText">
+						<i class="fas fa-quote-left"></i>
+						<blockquote>World class institution. It takes courage, vision and committement to execute on one's dreams </blockquote>
+						<span>
+							<h5>C P Gurnani</h5>
+							<h6>CEO and MD, Tech Mahindra</h6>
+						</span>
+					</div>
+				</div>
+			</div>
+		<div>
+				<div class="testicard">
+					<div class="testiImg">
+						<img src="./images/bvr_new.jpg" alt="">
+					</div>
+					<div class="testiText">
+						<i class="fas fa-quote-left"></i>
+						<blockquote>I am extremely impressed with GMRIT. Shri GMR Garu made his vision a reality with flawlessly executing the same. <!--The institute in terms of infrastructure faculty and student is very imoressive my interaction with students and the projects they are executions made me feel we have real talent in rural india. -->
+							<br>
+							I wish all the best to GMRIT.
+						</blockquote>
+						<span>
+							<h5>BVR Mohan Reddy</h5>
+							<h6>Chairman, Cyient Hyderbad.</h6>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div class="testicard">
+					<div class="testiImg">
+						<img src="./images/suhil.jpeg" alt="">
+					</div>
+					<div class="testiText">
+						<i class="fas fa-quote-left"></i>
+						<blockquote>Oustanding insights into now opportunties can and should happen.</blockquote>
+						<span>
+							<h5>Suhel seth</h5>
+							<h6>Indian Bussiness Man</h6>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div class="testicard">
+					<div class="testiImg">
+						<img src="./images/vineeth.jpeg" alt="">
+					</div>
+					<div class="testiText">
+						<i class="fas fa-quote-left"></i>
+						<blockquote>It as a glory to be here truly enjoyed interaction with young minds</blockquote>
+						<span>
+							<h5>Vineeth Nayyar</h5>
+							<h6>Vice chairman, Tech Mahindra</h6>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div class="testicard">
+					<div class="testiImg">
+						<img src="data:image/jpg;base64,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" alt="">
+					</div>
+					<div class="testiText">
+						<i class="fas fa-quote-left"></i>
+						<blockquote>Thank you for inviting me to your wonderful institute. it is clear that yout studentts have a bright future ahead of them. With best wishes
+						</blockquote>
+						<span>
+							<h5>Sahil Barua</h5>
+							<h6>Co-Founder & Chief Executive Officer,Delhivery</h6>
+						</span>
+					</div>
+				</div>
+			</div>
+			<!-- <div>
+				<div class="testicard">
+					<div class="testiImg">
+						<img src="./images/JJ.jpeg" alt="">
+					</div>
+					<div class="testiText">
+						
+						<blockquote>I am extremely impressed with GMRIT. shri GMR Garu has a great vision. Dr. Ragunathan and DR.Prasad made this vision a reality with Hawlessely executing the same. The institute in terms of infrastructure faculty and student is very imoressive my interaction with students and the projects they are executions made me feel we have real talent in rural india.
+							<br>
+							We wish all the best to the GMRIT.
+						</blockquote>
+						<span>
+							<h5>JJ IRANI</h5>
+							<h6>Indian industrialist</h6>
+						</span>
+					</div>
+				</div>
+			</div> -->
+		<!--	<div>
+				<div class="testicard">
+					<div class="testiImg">
+						<img src="./images/am.jpeg" alt="">
+					</div>
+					<div class="testiText">
+						<i class="fas fa-quote-left"></i>
+						<blockquote>I am extremely impressed with GMRIT. shri GMR Garu has a great vision. Dr. Ragunathan and DR.Prasad made this vision a reality with Hawlessely executing the same. The institute in terms of infrastructure faculty and student is very imoressive my interaction with students and the projects they are executions made me feel we have real talent in rural india.
+							<br>
+							We wish all the best to the GMRIT.
+						</blockquote>
+						<span>
+							<h5>A. M. Naik</h5>
+							<h6>Group Chairman of Larsen & Toubro</h6>
+						</span>
+					</div>
+				</div>
+			</div>
+		</div> -->
+	</section>
+	<!-- End Testimonials -->
+	<!-- Latest highlights -->
+	<div class="events">
+	   
+		<div class="app">
+		     <h3>Events</h3>
+			<div class="cardList1">
+				<button class="cardList__btn btn btn--left">
+					<div class="icon">
+						<svg>
+							<use xlink:href="#arrow-left"></use>
+						</svg>
+					</div>
+				</button>
+				<div class="cards__wrapper">
+					<div class="card1 current--card">
+						<div class="card__image">
+							<img src="./img2.jpg" alt="" />
+						</div>
+					</div>
+					<div class="card1 next--card">
+						<div class="card__image">
+							<img src="https://gmrit.edu.in/stepcone/images/stepcone.jpeg" alt="" />
+						</div>
+					</div>
+					<div class="card1 previous--card">
+						<div class="card__image">
+							<img src="img3.jpg" alt="" />
+						</div>
+					</div>
+				</div>
+				<button class="cardList__btn btn btn--right">
+					<div class="icon">
+						<svg>
+							<use xlink:href="#arrow-right"></use>
+						</svg>
+					</div>
+				</button>
+			</div>
+			<div class="infoList">
+				<div class="info__wrapper">
+					<div class="info current--info">
+						<h1 class="text name">ORATOR<br> CHAMPIONSHIP</h1>
+						<h4 class="text location">ACM</h4>
+						<p class="text description">AN EVENT BASED ON PUBLIC SPEAKING</p>
+					</div>
+					<div class="info next--info">
+					    <h1 class="text name">Stepcone 2023</h1>
+						<h4 class="text location">GMRIT</h4>
+						<p class="text description">NATIONAL LEVEL TECHNICAL FEST</p>
+						
+					</div>
+					<div class="info previous--info">
+						<h1 class="text name">ORATOR<br> CHAMPIONSHIP</h1>
+						<h4 class="text location">ACM</h4>
+						<p class="text description">AN EVENT BASED ON PUBLIC SPEAKING</p>
+					</div>
+				</div>
+			</div>
+			<div class="app__bg">
+				<div class="app__bg__image current--image">
+					<img src="./img1.jpeg" alt="" />
+				</div>
+				<div class="app__bg__image next--image">
+					<img src="./img2.jpg" alt="" />
+				</div>
+				<div class="app__bg__image previous--image">
+					<img src="./img3.jpg" alt="" />
+				</div>
+			</div>
+		</div>
+		<svg class="icons" style="display: none;">
+			<symbol id="arrow-left" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+				<polyline points='328 112 184 256 328 400' style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+			</symbol>
+			<symbol id="arrow-right" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+				<polyline points='184 112 328 256 184 400' style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+			</symbol>
+		</svg>
+	</div>
+	<section class="sectionGap" id="notifications">
+		<div class="title">
+			<h2 class="text-center">Notice Board</h2>
+			<div class="border"></div>
+		</div>
+		<div style="display: flex;justify-content:space-evenly;align-items:center;flex-wrap:wrap;" class="mt-4 mt-md-0">
+			<span class="box-shadow notificationColumn"  data-aos="fade-right">
+				<h1 class="notificationHead">Notifications</h1>
+				<div class="notificationContainer1 notices">
+					<ul>
+					<!--
+					
+					<li>
+							<h6><a href="https://gmrit.edu.in/PDFs/admissions/.pdf" target="_blank" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">.</a><img id="Image8" src="images/new.gif" alt="" border="0" style="Z-INDEX: 0" /></h6>
+						</li>	
+				-->
+
+				<li>
+							<h6><a href="https://gmrit.edu.in/PDFs/admissions/GMRIT_ I B.Tech_2023 Cat-B Merit List.pdf" target="_blank" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">I B.Tech – 2023 Cat-B (NON NRI) Selected Merit List.</a><img id="Image8" src="images/new.gif" alt="" border="0" style="Z-INDEX: 0" /></h6>
+						</li>
+
+<li>
+							<h6><a href="https://gmrit.edu.in/PDFs/admissions/Eenadu-12-10-2023_GMRIT_I-B.Tech_Cat-B_Spot_Admissions_add.jpg" target="_blank" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">Notification for Spot Admission into First Year B.Tech-2023 under Category-B Seats.</a>
+						</li>	
+					<li>
+							<h6><a href="https://gmrit.edu.in/PDFs/admissions/GMRIT I B.Tech-2023 Cat-B Non NRI Advt. 250823.pdf" target="_blank" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">Notification for Admission into First Year B.Tech-2023 under Category-B (Non NRI) Seats.</a></h6>
+						</li>	
+
+					<li>
+							<h6><a href="https://gmrit.edu.in/examination/results.php" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">BTech. 2nd Sem Regular & Supp. Results - Aug-2023</a></h6>
+						</li>
+						<li>
+							<h6><a href="https://gmrit.edu.in/examination/results.php" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">BTech. 2nd Sem Regular & Supp. Results - Aug-2023</a></h6>
+						</li>
+					<li>
+							<h6><a href="https://gmrit.edu.in/PDFs/admissions/Notification for I B.Tech under (Cat-B) NRI Admisions for the year 2023.pdf" target="_blank" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">Notification for Admission into First Year B.Tech-2023 (Category-B) NRI seats</a></h6>
+						</li>	
+							<li>
+							<h6><a href="https://gmrit.edu.in/PDFs/admissions/PMSSS_Welcome_Letter.pdf" target="_blank" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">PMSSS Admissions Welcome Letter</a></h6>
+						</li>	
+			<li>
+							<h6><a href="https://gmrit.edu.in/PDFs/admissions/2023-24_B.Tech. 4th Year Fee intimation Circular.pdf" target="_blank" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">B.Tech. 4th Year(2020 Batch) Fee intimation Circular</a></h6>
+						</li>
+
+					<li>
+							<h6><a href="https://gmrit.edu.in/examination/results.php" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">BTech. 8th Sem (2019 Batch) Regular Exam Results(Phase-1) - APR-2023</a></h6>
+						</li>
+					<li>
+							<h6><a href="https://gmrit.edu.in/PDFs/notifications/JRF-Notification-2023_AHDEM.pdf" target="_blank" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">JRF Recruitment Notification</a></h6>
+						</li>
+					<li>
+							<h6><a href="https://gmrit.edu.in/examination/results.php" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">B.Tech. 1st Semester(2022 Batch) End Regular Examinations Results - Mar-2023</a></h6>
+						</li>
+					<li>
+							<h6><a href="https://gmrit.edu.in/examination/results.php" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">B.Tech. 3rd Sem Regular & Supp. Exam Revaluation Results - Mar-2023</a></h6>
+						</li>
+					<li>
+							<h6><a href="https://gmrit.edu.in/examination/results.php" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">B.Tech. 3rd Sem Regular & Supp. Exam Results - Dec-2022</a></h6>
+						</li>
+
+					<li>
+							<h6><a href="https://gmrit.edu.in/examination/results.php" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">B.Tech. 5th & 7th Sem Regular & Supp. Exam Results - Nov-2022</a></h6>
+						</li>
+						<li>
+							<h6><a href="https://gmrit.edu.in/examination/results.php" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">B.Tech. 5th & 6th Sem Honors & Minors Exam Results - Nov-2022</a></h6>
+						</li>
+						<li>
+							<h6><a href="https://gmrit.edu.in/examination/results.php" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">M.Tech. 2nd Sem(2021 Batch) Regular Exam Results - Nov-2022</a></h6>
+						</li>
+					
+					<li>
+							<h6><a href="https://gmrit.edu.in/PDFs/ADs/JRF-Notification_for_DST-SEEDTITE_Project.pdf" target="_blank" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">Notification for Junior Research Fellow (JRF) for DST-SEED/TITE Project.</a></h6>
+						</li>
+					
+					<li>
+							<h6><a href="https://gmrit.edu.in/PDFs/admissions/Eenadu 03-12-2022 (GMRIT Spot Admissions - 2022 Notification).jpg" target="_blank" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">B.Tech. (Cat-B) & M.Tech. (Cat-B & Convener quota) Spot Admissions-2022.</a></h6>
+						</li>
+					<li>
+							<h6><a href="https://gmrit.edu.in/PDFs/Examinations/Re-schedule of B.Tech. 7th Sem Regular Examination.pdf" target="_blank" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">Re-schedule of B.Tech. 7th Sem Regular Examination.</a></h6>
+						</li>
+					
+					
+					<li>
+							<h6><a href="https://gmrit.edu.in/examination/results.php" target="_blank" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">B.Tech. 2nd Semester Supp. Exam Results, Oct-2022.</a></h6>
+						</li>
+					<li>
+							<h6><a href="https://gmrit.edu.in/PDFs/admissions/GMRIT_Rajam_B.Tech-2022_Non_NRI_Advt_290922.pdf" target="_blank" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">Notification for Admission into First Year B.Tech-2022 under Category-B (Non NRI) Seats</a></h6>
+						</li>
+
+					<li>
+							<h6><a href="https://gmrit.edu.in/examination/results.php" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">M.Tech. 3rd & 4th Sem(2019 Batch) Regular Exam Results - Aug-2022</a></h6>
+						</li>
+
+					<li>
+							<h6><a href="https://gmrit.edu.in/examination/results.php" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">B.Tech. 4th & 6th Sem. Supp. Results - Sep-2022</a></h6>
+						</li>
+					<li>
+							<h6><a href="pdfs/admissions/B.Tech-2022_NRI_Advt.pdf"  style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">Notification for Admission into First Year B.Tech-2022 Category-B NRI seats</a></h6>
+						</li>
+						<li>
+							<h6><a href="http://115.241.205.4/examresults/BTechReg2ndSemAug2022Batch2021Rnd426.aspx" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">B.Tech.2nd Sem (2021 Batch) Regular Exams Result - Aug-2022</a></h6>
+						</li>
+						<li>
+							<h6><a href="http://115.241.205.4/examresults/BTech2ndSemSupJAug2022Batch2015.aspx" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">B.Tech.2nd Sem (2015 Batch) Supple Exams Result - Aug-2022</a></h6>
+						</li>
+						<li>
+							<h6><a href="http://115.241.205.4/examresults/BTech2ndSemSupJAug2022Batch2016.aspx" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">B.Tech.2nd Sem (2016 Batch) Supple Exams Result - Aug-2022 </a></h6>
+						</li>
+						<li>
+							<h6><a href="http://115.241.205.4/examresults/BTech2ndSemSupJAug2022Batch2017.aspx" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">B.Tech.2nd Sem (2017 Batch) Supple Exams Result - Aug-2022 </a></h6>
+						</li>
+					
+					</ul>
+				</div>
+				 <a href="./notifications.php#notificationsdirect" class="btn btn-success btn-outline" style="
+   width:100%;
+" target="_blank">View all Notifications</a>
+			</span>
+			<span class="box-shadow notificationColumn mt-4 mt-md-0"  data-aos="fade-up">
+				<h1 class="notificationHead">Events</h1>
+				<div class="notificationContainer2 notices">
+					<ul>
+						<!--
+					<li>
+							<h6><a href="http://gmrit.edu.in/Events/Vizag_Alumni_Meet_25092002_Invitation.jpeg" target="_blank" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">Alumni Meet 2022 at Royal Fort Hotel, Visakhapatnam on 25th September, 2022.</a></h6>
+						</li>
+				-->
+				<li>
+							<h6><a href="http://115.241.205.4/feedback/graduationday/index.aspx" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">Graduation Day-2023 on 11-06-2023. Click here for details... </a><br><br>
+							
+						</li>
+				<li>
+							<h6><a href="https://tinyurl.com/gmritvizagalumnimeet" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">GMRIT is conducting an Alumni Meet (for 2017 and before relieved batches) on 20th November 2022 at 9.30:00 AM at Royal Fort Hotel, Visakhapatnam. </a><br><br>
+							<a href="PDFs/events/Alumni_Meet_2022_Invitation.pdf" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">Invitation</a></h6>
+						</li>
+						<li>
+							<h6><a href="PDFs/events/Joint FDP-GMRIT-VRSEC.pdf" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">GMRIT & V R Siddhartha Engineering College, Vijayawada Joint Collaborative One Week Online FDP on “Hybrid Electric Vehicles” from 21st - 25th November, 2022.</a><br><br>
+							
+						</li>
+				<li>
+							<h6><a style="font-weight:bolder;color:var(--blue-gmr);" >Five Day Online FDP on “Communication Skills for Research Paper Writing and Professional Practices" from 4 - 8 December, 2022.</a><br><br>
+							<a href="PDFs/events/GMRIT FDP (Dec 4-8, 2022).pdf" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">Click here for details</a></h6>
+						</li>
+						
+
+						
+						
+						
+					</ul>
+				</div>
+				<a href="./notifications.php#eventsdirect" class="btn btn-success btn-outline" style="
+  width:100%;
+" target="_blank">View all Events</a>
+			</span>
+			<span class="box-shadow notificationColumn mt-4 mt-md-0"  data-aos="fade-left">
+				<h1 class="notificationHead">Placements</h1>
+				<div class="notificationContainer3 notices">
+					<ul>
+					<li>
+<h6><a href="https://cracku.in/latest-govt-jobs/nit-recruitment-2023/" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">NIT Recruitment 2023 Technical Assistant & Other 240 Vacancies.</a></h6>
+</li>
+					<li>
+<h6><a href="https://cracku.in/latest-govt-jobs/mpsc-civil-services-combined-prelims-exam-2023/" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">MPSC 2023 Civil Services Combined Prelims Exam 673 Vacancies.</a></h6>
+</li>
+
+<li>
+<h6><a href="https://cracku.in/latest-govt-jobs/nic-recruitment-2023/" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">NIC Recruitment 2023 Scientific Officer & Other 598 Vacancies.</a></h6>
+</li>
+<li>
+<h6><a href="https://cracku.in/latest-govt-jobs/bel-project-engineer-2023/" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">BEL Recruitment 2023 Project Engineer–I 110 Vacancies.</a></h6>
+</li>
+					<li>
+<h6><a href="https://cracku.in/latest-govt-jobs/upsc-epfo-apfc-2023/" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">UPSC Recruitment 2023 Enforcement Officer & Other 577 Vacancies.</a></h6>
+</li>
+<li>
+<h6><a href="https://cracku.in/latest-govt-jobs/nehu-guest-faculty-2023/" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">NEHU Recruitment 2023 Guest Faculty 132 Vacancies.</a></h6>
+</li>
+<li>
+<h6><a href="https://cracku.in/latest-govt-jobs/wapcos-engineer-2023/" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">WAPCOS Recruitment 2023 Contract Engineer 400 Vacancies.</a></h6>
+</li>
+<li>
+<h6><a href="https://cracku.in/latest-govt-jobs/mppgcl-recruitment-2023/" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">MPPGCL Recruitment 2023 Assistant Engineer & Other 453 Vacancies.</a></h6>
+</li>
+<li>
+<h6><a href="https://cracku.in/latest-govt-jobs/ifsca-officer-grade-a-2023/" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">IFSCA Recruitment 2023 Officer Grade A 20 Vacancies.</a></h6>
+</li>
+<li>
+<h6><a href="https://cracku.in/latest-govt-jobs/eil-recruitment-2023-2/" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">EIL Recruitment 2023 Management Trainee 42 Vacancies.</a></h6>
+</li>
+<li>
+<h6><a href="https://cracku.in/latest-govt-jobs/mstc-recruitment-2023/" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">MSTC Recruitment 2023 Officer on Special Duty (OSD) 62 Vacancies.</a></h6>
+</li>
+					<li>
+<h6><a href="https://cracku.in/latest-govt-jobs/recpdcl-recruitment-2023-2/" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">RECPDCL Recruitment 2023 Sr. Executive & Other 25 Vacancies.</a></h6>
+</li>
+
+<li>
+<h6><a href="https://cracku.in/latest-govt-jobs/idbi-recruitment-2023-2/" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">IDBI Recruitment 2023 Assistant Manager 600 Vacancies.</a></h6>
+</li>
+
+<li>
+<h6><a href="https://cracku.in/latest-govt-jobs/tsspdcl-recruitment-2023/" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">TSSPDCL Recruitment 2023 Junior Lineman & Other 1601 Vacancies.</a></h6>
+</li>
+
+<li>
+<h6><a href="https://cracku.in/latest-govt-jobs/niot-recruitment-2023/" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">NIOT Recruitment 2023 Project Scientist & Other 89 Vacancies.</a></h6>
+</li>
+<li>
+<h6><a href="https://cracku.in/latest-govt-jobs/upsc-foreman-2023/" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">UPSC Recruitment 2023 Foreman 150 Vacancies.</a></h6>
+</li>
+<li>
+<h6><a href="https://cracku.in/latest-govt-jobs/nit-trichy-2023/" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">NIT Recruitment 2023 Medical Officer & Other 77 Vacancies.</a></h6>
+</li>
+<li>
+<h6><a href="https://cracku.in/latest-govt-jobs/iocl-recruitment-2023/" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">IOCL 2023 Junior Engineering Assistant & Other 513 Vacancies.</a></h6>
+</li>	
+<!--
+						<li>
+							<h6><a href="#" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">Adarsh Placed in Amazon with highest package of 34.4 Lakhs.</a></h6>
+						</li>
+						<li>
+							<h6><a href="#" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">Pallavi pareek of IT Dept placed as Associate System engineer in Airbus Ltd at Banglore offfice with 12LPA</a></h6>
+						</li>
+						<li>
+							<h6><a href="#" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">Computer Science dept got 98.8% of Placements</a></h6>
+						</li>
+						<li>
+							<h6><a href="#" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">Nagarro is visting college on 25th of this month be prepared</a></h6>
+						</li>
+						<li>
+							<h6><a href="#" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">Infosys is visting college on 30th of this month be prepared</a></h6>
+						</li>
+						<li>
+							<h6><a href="#" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">TCS is visting college on 5th of this August be prepared</a></h6>
+						</li>
+						<li>
+							<h6><a href="#" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">Musigma is visting college check you elgibile list</a></h6>
+						</li>
+						<li>
+							<h6><a href="#" style="font-weight:bolder;color:var(--blue-gmr);" target="_blank">Use CRT Module for Preparation for placements</a></h6>
+						</li>
+
+				-->
+					</ul>
+				</div>
+				 <a href="./notifications.php#placementsdirect" class="btn btn-success btn-outline" style="
+    width:100%;
+" target="_blank">View all Placements </a>
+			</span>
+			
+		</div>
+	
+	</section>
+	<!-- 
+	<section class="my-4" id="notifications">
+		<h2 class="text-center"> Latest <span class="color">Notifications</span></h2>
+		<div class="notificationCarousel">
+			<div>
+				<div class="card_notification" data-aos="fade-up" data-aos-delay="300">
+					<h4 class="text-center">Placement News</h4>
+					<p class="text_notification">Adarsh placed in Amazon with highest package of 34.4 Lakhs.He is one of the TOP CODER of GMR Institute and his achievement is inspiring for student.</p>
+					<span class="link_tag">
+					</span>
+				</div>
+			</div>
+			<div>
+				<div class="card_notification" data-aos="fade-up" data-aos-delay="300">
+					<h4 class="text-center">Placement News</h4>
+					<p class="text_notification">Pallavi pareek placed in Airbus with highest package of 12 Lakhs.she is one of the TOP CODER of GMR Institute and his achievement is inspiring for student.</p>
+					<span class="link_tag">
+					</span>
+				</div>
+			</div>
+			<div>
+				<div class="card_notification" data-aos="fade-up" data-aos-delay="300">
+					<h4 class="text-center">Event News</h4>
+					<p class="text_notification">GMRIT & V. R. Siddartha Engg. College, Vijayawada Joint Collaborative Five Day Online FDP on “Advancements in Security using Deep Learning (ASDL-2022)” from 21-25 March, 2022..</p>
+					<span class="link_tag">
+					</span>
+				</div>
+			</div>
+			<div>
+				<div class="card_notification" data-aos="fade-up" data-aos-delay="300">
+					<h4 class="text-center">Event News</h4>
+					<p class="text_notification">Online 5 Day FDP on REVISITING CFD OPEN FOAM, COMSOL, LBM AND MATLAB from February 21 - 25, 2022 (4.00 PM to 8.00).</p>
+					<span class="link_tag">
+					</span>
+				</div>
+			</div>
+			<div>
+				<div class="card_notification" data-aos="fade-up" data-aos-delay="300">
+					<h4 class="text-center">Event News</h4>
+					<p class="text_notification">GMRIT & AU College of Engineering, Visakhapatnam Joint Collaborative Five Day Online FDP on “Research Applications in Machine Learning (RAML-2022)” from 28th March -1st April, 2022.</p>
+					<span class="link_tag">
+					</span>
+				</div>
+			</div>
+			<div>
+				<div class="card_notification" data-aos="fade-up" data-aos-delay="300">
+					<h4 class="text-center">Placement News</h4>
+					<p class="text_notification">Nagarro is visting college on 25th of this month be prepare. Nagarro is visting college on 25th of this month be preparedd</p>
+					<span class="link_tag">
+					</span>
+				</div>
+			</div>
+			<div>
+				<div class="card_notification" data-aos="fade-up" data-aos-delay="300">
+					<h4 class="text-center">Notification head</h4>
+					<p class="text_notification">TCS is visting college on 5th of this August be prepared. Use CRT Module for Preparation for placement preparation</p>
+					<span class="link_tag">
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="notificationButtons">
+			<div class="notificationPrev">
+				<i class="fas fa-arrow-left"></i>
+			</div>
+			<div class="notificationNext">
+				<i class="fas fa-arrow-right"></i>
+			</div>
+		</div>
+	</section>
+	 -->
+	<section class="sectionGap">
+		<!--Companies start-->
+		<h2 class="text-center sectionHead py-4">Students work at</h2>
+		<div class="marqueee">
+			<div class="marqueee-content">
+				<div class="marqueee-item">
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Infosys_logo.svg/1280px-Infosys_logo.svg.png" alt="">
+				</div>
+				<div class="marqueee-item">
+					<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAWIAAACOCAMAAAA8c/IFAAAB/lBMVEX///8AfcXuOYQAd8MAe8QAdsIAdML4AAD/AAAAecMzkc4AccEAcMCaw+P4/P7wMXHY6fWy1Ov8Chckist0qNb7DR81jczS5PLd6PT2H0jxL23wMnX2hSD8qKj9BQz3HED1Ik/yLGZin9L9tw76ECb4FzV+tt3zJ1v6phP4kxr5FC39ugz7sBD5nRf7qxJSm9L7WwL7UAF4ANrE3/D1IEzzKV+vG7LYLpT/xwj9hwT9fwT8dwT8awP7YQL6oBb1fiP0cif9jwXyZyv6h4qQuN2dEr+6IKrqN4fRK5mZEMKlFrnBI6XFJaLgMo76QgDxYC6HB8/vQ4r9296RDMjjNIz+8dv+18z/7udyAN6AAM7+8/erGbX5v9XtIXvzhK///fX/8cr/1WP/0k//67X/5qP/3Hn+zDf7m5H9ycn+yLP9sYL9pIr9uKn80Zb7uVT2ijT3n2H5uZf3Qyb8im32kmP9nkn8eVz+2Yv5SUnxWhjyaTz+u7n1TDH+r1/s1O3+qDTEa8f5dHnTwfv2jEr/Uk/+yJH7a1HCn/D9v7X8knz/w3iRQ+D/amq4jOr8uDz4UWKiTtf16fr4eZC0bNj4lKnjx+72S2q3Q731kLP3qsXdsOPxYJfWm9j40ePRY7nsiLzkbK3tUZbRp+fNAJHZbriuZNn4utHhXafvj7vRaLmzB+vOAAATKElEQVR4nO2cjV8TV7rHk8wLmSQzZsiQRFSQgMECOi1BRfANG0AELQEUCaC99+5u2227d6vXbt22rN3dbu+2tS3XWt9KW7Tr7f0v7/Occ+YlyUwgBRqK5/fxIydnzplJvvPkOec8z5kEAlxcXFxcXFxcXFxcXFxcXFxcXFxcXFxcXFxcXFxcXFxcXFxcXFxcXFxcv5yuXbtW77ews/Xqv/X39//7f9T7bexg/aaf6rf1fiM7Vpf6LXE73iL91kb8u3q/lZ2q/m5b9X4rO1UO4fZL9X4vO1Q97ZZ6OOKtUY+twxzx1uiwrYMc8dbooK1THPHW6JStQxzx1uiQI454azT0gkV4iCPeGg29YIkj3iI5iI9zxFuj43stccRbpAEb8UBNiIuXUbOztfS5dgn0/EX/B06j9p4+c+ul1/aV6HW/LsU3fn96cHDwBOjkyRMvnn3zrctrX+fVt/9w6tALQ0NDe/f+5x/fWUeHnaNBJHz2emNDpRrf92g/+87eAaJBSvnkyZMvvvTSxRtvFatc5NqfenBtcwhdPnxf4Aad+K83fDpkkxGXEimo0hOkmINiLuE+GlGhKk1KyeyGUWyVBs+cOXO9xQMwqsKQL988PjR0/PhxivgENeQXX0TIF9/1M/trf2rv6TnsRnwaLnrr7FuerTOC6FIUEUcULAoZKOai7qMScs1LWFSC2qYx2WSdOHOmwwdwQ8N7pW0v3xxCeSAGxgD5Fc/v/6XftXshPnv21p+9PLmhBF2SAXGa1UgAMSe5jyqAWEuI9Ki+BXQ2RSfOXm9oQXkydrecvTkE6xN/xMC44bXKC7zf3t3tjfiVV255OIuMrCiUqQiFGHiHrECBCuAWcjHraBAKMiDOyeyluVWINqpbH1DCTP6IPx46dWotxBcbKr787w/2V0Hs4SvUbDZLLFkMQikbt80UFAjEsY7eAANKusvqo/EtxLQR3WpqaWxsbCkXJXzAblb8EANFayK+eLHs9Evhg1UQv3LD+03FiWUmqHclZioiZjlHDwfxhZImZU2xboCyXQe860jYUjlme0pR/AsQYkZcFXFDqXvVmsM9JYhx0nZ6TcQpN+IMmKmYQKyKQQ9TxNRoVeKcE8TqtwDPZsgFuNwRN9mEZw8epogtKz4+gIBPMvkjvh1ucaz40KGbH3764c29A4PVHAXKjVjDspLPImg2a3AjRi8immQU3K4DXlNjUxMj/NHLbr3mmoP95bAb8dDAiZPv3ngLV3dvvHnjXcDrQlxy8r8uhlv2Woi/eJUu7K5deudvgwTxrT/7zI3diFUc7KQ4qZJUctiFmLgUGAeJkW/TAa+hyVLDlF+bD+n3/BQJeQ5eDP/9fTea2ctv3rpoIS6dUnzWEW65zhB/6j4w+/szYPw3/JbfbsTETJOBAHpjJUIOuxCjcWMRBz1RTNf++X8BrQPxxz0M8alTAxfD4fc8lhiX3yVjXcM/Smo/GQuDSwdPAYj/UN7l2qz/etCFOIUuQMgymBLh6iDWsChG2JjIjHy7qaEDVQ3x5cPUlR48dKIhHG7xWlWDiv/9z3/8s2zpcWUCEV9HxLWlt12IDWamtI7OGhzEumSRVRjrbSiKGOWHGAn3gDM+EQa9V0No7ZMro4i4ZS9acU1vykFMzTSBlcRjkAHPQWziDYiifyC3AteC208NXV3VEX+My9+enoEGQriGMxfnriwi4samnu6fjZiYqZDHSuIpZJw12IjTju0ST2HN6raXGrsseSOebQcbbD94EQGHu2o585Nehrixo6e9RsQxQRAktNiIDKUYnTxgpYw8FQmOylCZx6oY8cBaECuj2zEWtBbiT7vb29uHwlQ1BeA/670yQxE3ftBzuKZIfFol0gIaLZBKWkaDto46BZBOyttxEd10AIWIG70QX2vv7u4eYIR9RjpvLfX20uEOEDd90PMc716miFGeiN8GwoOM8Oc1nfgOID5vIW764IvnL6FkqcNG3OSF+Ivufotw2Hdp4qle0GRLGBHDjLDj+qdrd9mh6mhtrYJ4trv/ePhnGfESIr5yxEbc0fjOJr3jX526Wi11eCB+u/8U5dvSUqMR3yGIR2zEXV1NHvH650IHqiL+oh8XdKhwR23nnewl6grbiLs6vqyWQt25chB3eSDuHrSCx+HabHBpbm4OzXg+TIc7RAwTlxrmJJrmXfZouKmT4U0+HejAbipwyZWIL3fb8fka/cSTuTkCGVYfLsStXR+ty5A1NZMIBiMGiZzpUE5kaCxYM0yTzpLTEZPkQHIGtsziQtCM0EhbKoJt4qxl1nQErdLwJx+wTmHSHqqZ0UovrFutsFFNn7xSrbsteSB+ddBBXNuX/KvJyUkC+UlTgwtxa+t+3x0wjlRYqUmyLOGqTjNlKMqwrEMaWkJRaEYpHosi9byskJZQp8pRGqLIRaU8LsLJFoBAJipJAvSS4A/eCFmx9gOkY4qUISVDpoFTPSjhxWQ5ronsOoYU22ikv7WPyhPxb2jqFFNOf6/prMuTk5Rxb3GqscWFGL4u/7NW57wsSqaay6kmYSqZekqPUDBaUhQVgiUtY5IjJ4tBNadn0dBUgUWBcrKCiAUallMNw8iIYgT+GBoGjhIiywGm5SArZgWCGC4smzq9sCqRyIgmKRsO37Xup+rra61E/MewldkLf1TTWR9NTlPInwUCwNiNuG93Z3Wfk4uJoh0xMyQW2skoiBYQJ8QoYqGIodZeMvsgRjllTZR0K1oEiBMKCeJRxDrcr5z9NoKiouERZcPRu937LXkg/luDndd7uaaz3p2eJoznPoEXs10tbsRwqa+r9bWtLEBDabSkKaKUBsSKEVGwykLsZDrWhViXohrcF3pyWVEFEmymiCOK4PIJugyHtKCw8eBdX6eFeHcl4s+JEZN4/b5aTlocm54mkOeWyMsvG0oQd+7/xt+zx6OuHBz7uqIMBT9yUsjCZ89biA2Fug3Sdj2IM2C2qkQbwilypiKkGeK4XOoT8FaqkrLxZNX+TkveiFnWqaUmxPemqSbHWMW+lg434s7OIwt+fXVJcPJDwDVn18P3G6zYDCRxJKKI44qoBPN09FoPYk2BW5ZmrxBxTsIbShCr7gvjaeB1Ut6EXJWDuK8S8ZcW4Y7aEN8ZG6N2fMeqmWptciM+cqTTz1lkFVeyPqPIlq8FGBmKWMdSnCAO5IKSIsg4Z1sXYl3G80WoB0bEMPzBfwRxXijbJWAqQdpwg4JPC58Xtd8HMUmJNNaEeHh4jEK+59S93FSCuO3IVe++JYjNEsTMihFLilox2GU+IQelpLY+xBkBfYEqCNiSII7jlIEiVsoQxwVxU7ZmEMREHog/b7QSe41VR6gy3RseJpCnx9wu9/UDXW7EzW3ejOHz+zmKPEOM7lqTrY+v6cEgToFdiPEMnohh9EwmkwmRvCSIAa+sqxI6CsH2+0wJcVN21Ha2gQhij7nURwQxxuubakF8e5gxvlt2ui434ubmB16dYarrjDow3FicwGfoDHEgK8k5ybGwtIDzDt2qgYIP4pwkkiWIKKLZU8RaUIkQxCkZt2u4ldycTctH2ix5IH65yco6day5YHBUPA8ikO+VHXkfzNhBvKvZc8xTRNmBp1iGBJNYKDHEsCAx3furwCwJRzrBMhRc5nkhhgmInkql4hHwNBZiXO/BekTDHaBCqV/YJMRt1RDvY5m9Awe6vln/KR+dtxhXTM2K3xxwId6zx2vupsqujwpLD4wsBLQIztksxGCoIkEcJwiAIBp+kC5Z4goC80IMd4baqU6+HAwxuHZRxB4q2HgJ481C3MzUdqQS8euNhC9q//pjFPfn5ynk2x4H97X2uRB7ugoDGCeMfD6ToEGJhKrng4qEFC3EONrTpUcmrxqKiDu9A2pUFPPQlH4LUoKYMMljIDbilOV2tCj6BAsxtCSIAxm8cBYuzBzGJiFuttVWiXjKSTv1raz3jPfmj84TyMNLXoenjvQ5iBc9b5wqSgK4TCmGUQlTEmRZliTiBLSETBHDOiGq40tJgn8KHSCzGD2SJLrvKiWT0A8I/buM3Q0rUBSIYIgpHYvSsTQr0xhFIC9KpA/bDZ6QlE1BvIvJC3GA8cVwsqfBeen+URBCvu99vLhrv414z0PPJpqaMSOmoZMPmDPMSCZL2WhZg436qmHkcDcANMzkrRVYKgvdspRP3LBEymSdTAJBKN0w9EA6Y9CmmmFkNfeF2b4Bp/2GhJ8ThIw9EH/J+La2Hiis84RLR49Sxucf+bQoFhzEj33Po/mU19DGmWz6bpc9trwQf+2k9prX6Snuj4yMEMZHfb33SshGHHoOck0O4l0eiKc6CF7MirT5G5xbj0ZGGONv/Rv9ULAQL9aWTPlVajEUCu0JEcZeZtrXaqVF9ofWY8bF8fERBnnZv9WzmUJbGyIOLfqGg3aOEDGVJ+KvCWGSFimsx4y/Gx+nkKsZcWBlZjTEED/7me/7VySbsLdBLbQSvpgW2bXoPfy79e3ExARjXM3JLs+Mju6hiNc+569eqw7i7z0Of7VI0hSozsKajnNhYoIyHh+pZsQEcWFPFcQbSLT7dN301P369dgx49XKo4/GjlqZp87OQmiN8X/l6bkJC3L1hoA4VPBzFJpqJpMmTnsDZobKwH2wME01sjrOgXXTtMJsZsYI5DJsD0AgDhPjRARfGawnyd7TM2brtDP2geOMZyo8xfLw8PQowYtqK4QK1ex45RyKMvZc2Nl6OAPOOFRAxJUDQDqBmXYpiuuxGF2hYQ4+HlOkaFSWcQ0MZRYr12U5G9CjUbqNO6OQJH00Aysz1lOGW5IiuXspVqenbRYcxKsXyo4V54eHx4atvMgRNOMqM4CHT8+dsyD/WP2iFy4QM8Z5ceW8A+BkdF0lPz8RFRN5fOpZJUtmqM4GRcQZUQRqkqYixVn0EsOSSjALXdHEk6JCesKyDesNXc8n6vTMWNFBPHqh1BsX72O8bHqChG1Qbcj4qrezWP7hGMhiXN2h/EQRI+PKNWMq6mQ8AbEdO46TQHsgLuHDNVmWBNLIo3gMMXDP2B43Kcasoi7X+fHoxy4rLmG8dHQeEY9Nj1LCbW1te5Bx4WElwCJQO3bMgvzUchPLT+48qXQZz44du2B5isrIB8luWCpFTOpJjj8lWEFNhGv973581IVYLU/K/dJ6aJtxYQYwWfyWbpM4AzIebrbj9gUy9QhdLfWgK1dnZmYuMMhA2BrCnsxNTk5PD98ppfz9UxtxaE+lb4/HxKA9LnkgprtLEjTOaJCtKhRxxklCBcqsWEzU9TGbYsFtxseOPT3344/fjdNFMDPjYcoXI56s8eJi4erDZwsrKwvPHqwuLo6OUsYE8lPrq3CvlyCeHhsbvv1oGW9dsbj0/dOn5wAxc8Zeq5mIEIwaLOgIvpg8JZOzHQWMbyRoprCkEIZ2CWKtNNOWFCXSE+03qYhSvaYTRI4ZE8TEl45Txgzxv1barMj9LueGLDKhFx91Qbadzd05hnh4ePj8/Pz9+3DnxicmzgHiYwyx1wRFM2VFkU0CORoUcYoQw1mELJpZI8I2YKXI35xMnDBBnA4q7tRbUgzi/r8o+o50RBYVOVNHyDY14inolIAhRsZjY8uBKYIXBAOUA9mRi7Hjzj/rtRGfB8RHj46MjBPE5yxP4bO00yNRhWbco8Eg+XErMqMICjGoZyNXELNHWYU8aEcRi2IpYpH88BVN56kJ6Bms37OlKz5mzDzFGLrSIqx3WWg55MXYhvyTc96veqkZj40RKy5FDGa86LOTApQyaV60xBfDzEtNKuxZ8izusGCP9lNHESzxuEkxWnLGXERRkvXzyAsuxpWegqWRHzRbUc+QryGPzrjHwb+6EZ8niNFRTFiIq4aVMgpuHqyctLFxjmyWiEfpVIEOd6YieA93dk20jj+m8MxiXCj3FOfP24n6hQLhS9t5UR4tnzN/VeIpShCDp/ih6uSZzrQqZxSqwLYABJWMynJrFLHqN2ljAruv51PoK4XFMsbUU8zfd6++noWcdUphtZzy4mrFYvgOmLELcYmn8A2x0VEpQ7Y6VCJGf0FeG0rQFOgihSIGT+G99NDSrEaq7xPSDyx8q27E5em3hceLDmXEjPZMTLrw2GtpvXTX2xk//V/f+H4qZqqwBlaIm4VJWxajP0banhdL9KcTcNeQWLL9h+ScRQM6R+gCmnQ0cgGdnBG8eL2f8y8+LFB8hZljlPF3jzy+yssPH4fcmENk9rb6wA9Z8cm/xpCx7SnGJ2DmXSWBosYwZiPIETQ5DAPh3CsGiGMyQZwhD3awiAR7wpyFgVIJicSBYsAyIbCeaiAbxZ0Agmxug8f8px5efbyKxEZXf/hpwddVFlceXH1sTYtDhasPnlUPSSwvfXsX91VQM/6/b5eqNtdUI5JIsgR/huXpM2lMyRObzZHsfoCk+dlKO5dhVZpumIkEiYNmrRR/DncCJBIRY/v8/lWRaD3Nlqem1tPSar+EWlf7DT365tl38x+m4+Li4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLaAv0/Xh1EOXzsx00AAAAASUVORK5CYII=" alt="">
+				</div>
+				<div class="marqueee-item">
+					<img src="data:image/png;base64,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
+					alt="">
+    </div>
+    <div class=" marqueee-item">
+					<img src="data:image/png;base64,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" alt="">
+				</div>
+				<div class="marqueee-item">
+					<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXoAAACFCAMAAABizcPaAAAAn1BMVEX///9GRUcAtdE6OTtAP0E9PD40Mzbb29t1dXa0tLWBgYI4Nzrz8/MwLzKLiosAsc7G7PPMzMzp6emUk5RWVFawr7D09PTU09TGxsbk5ORIR0lOTU8Ar87AwMCgn6BubW9eXV/w+vylpKXx+/yDg4S15e4xvdbU8PXl9vpjYmQnJinN7fSa3Ol40OJJw9q96PCL1uViyt4XFRmo4ewgHiJ3ujlvAAAMnklEQVR4nO2d6YLiKBSF1RA0xmi5Rk25VNperF5net7/2SZukQuHhFhWka7m/FQI4QshcIF7G437aREPV8FBq9UwHt18mVE7juN2r0qGc7lBVu7i1mJ7i6zcduFt9xZZiuIkb6/eqr+NOA9D76SQR3zbX800yUdEQqrheB9m18kUeZu0XVru7JThUmxWLo8m/ZXmudFihUTtdMPOxfL9GBYbrzf+OUm0H8eld/ZGGnZ46DcV+WHYGaL07X8jQf9Nzz8v+oz7LM/O/Gi7Kiy3vfPFDHnGkG/mKP2zWOxz5/zrbDqJPFLsRC52MV7SO+PJVL64DcVbrlb/cpN8AuC3uZjGC44/LjpcfXx8om/57U1RuQl4auT6rHv6MfU9tdit2G+10Z2Fif2Wv4u0AE7V6CjdDkI/xhxZlGrKHZeVu1G6HYB+uAxhsTx/bXpdzROOLDf8XqK2GUl+U/70qegX+svwMSp3toXICD5ffmNU9LtIl/v5zD4ALf4sbat4E/VYcdM7KZQYKOhXXJc1E1+Dcpcm5XKps5PRjyYF7SY6NJhZp+jOIvhFeRvNEhMCGV06IJPQr6batneqofq5mJiVy+kzp+j7C6/oKmyS3ehS2+RPaSoMge+sTvGdkWoIouib+9K+Qy63a1iulJPm2pZkDYN5UZM/yO+/Ll+9CvsJIo90Gm3jfOfc6a3l+jsxn/EDu+QuTcFtza+W5rUg91gVfZPfXG4kdjlV0ZfLA9+h++rpM/p1WtpRXEVezcrow+DWcllHyHh/9M0EcPn8dAfkZz21HtDPSZV79MR5e1X0bH9zuVwY2b4C+gj0OA+tD/fhnpH/9IjQxypAdjCiHEw5aiU9oeFq0TPf9zw07uC9onJ9zptJkiy9KFTy+kKXoEXPNMVKSYDRIgST5ofHT3dq919agwFCP5Zr4vPOdB5nGq7GW3muyTZl6Bnnm346DdL+RJmohnN9uT5bx+cJ8yLYK5cWBlcYvRclu3VW7I7pRvksjCbHJF3F6OCDCd/DYND6ch/yrRZEL3/sorVoMWjvpbv0rv8i9F7Uj4XMUncutl2pXE4HeEOZr/CBB+hZtA3yBHh+cUiSv3SplIR8S856GGTI7sD+80CDfiTdBJfNSTtP97+K3mfS+HFMMwvvTI+WG8qz+ZH0xghdgoKe8Q6ZdA1V9ox3SRJ5rE9nLEcd0Q/gyKSKvh4uA9GvaMPkaqe3JRC8q7VJQc/HioltQwleazgk5YJWN6RXF7oE5YXYy1aevpJkIxugdtKjVck8nJh9Vf+potNVIPo1nZZv1RSUMOtr/mj6CbAMS2mW+R9T8j5wkHVP4AgPh3JlvtpaFrTZM6YmkW9eLf8C7af6l7k+ni4C0Xdpmw7UFHQUKPQZ0jMB3WWmCYWQvxb0K7sFOQP6Pl6TSIYEZICht7xHy2z0WxOqCR4u1D7Cihnp92NLj56iidCaKKV07TPgUomsPm27OaeO+DsaYDQWuheGvqc7kJX2cwyaaOhLVYC+9fgb1sxA3y7kIXrpO4jaB21+VwRG6FNSgJ+jJzUPYV7aa1yHVnCViqpbjr5jjL71+A1WrVS/8itA9LRpoQm1/EXMfzdCH2jQE4NjCC3mtFVE9tC3Br9g3UokkEfoZxQ9GGPJ6L389xehJx1dCJfdyZ1ZRX8T++9C/pvRU8T572+MPs9qAX1r8B3WrkD/iNkR+p5Db4S+NfgHVk8rSt6hF1URfWvwA9ZPox80s0Mvqir6Suw/SXkdelGV0bcGnwwN+B8U8g69qOroTdkD8q2BagJ16LXon1qAvcHiCcgHDaAOvRY97Ddapey/KNxb2Ozv0OvRw56jbPHks5pDs9jl0BegByOVTIWLJ19BZ6PppRz6QvTK+LxVvHiifpr132aHvhg9ZA/31Bz0E5HXJbaGnixmyHuJT6oFetkicMSpWbj6+Kgm1c/DrKFf5genMj3XGD1ijxdPfoOHVGD5sYZ+Jgpvsq4Jemr9PbMHiyffqpG3h95AdUFP1jwuUBX2KFGhpdmhN0APsUqLJ+DVKFlfqS36xZou2FtFDzsT0qTRx7hkZaue6Bdpohw7s4q+7BOKyJetpdcQ/SidRGBbpV30xezR4L90B4kJ+vgN0S/SbYR3CltGn+8jE/GeB+2IfPm+KQl9MgaSNqjlee+OfjTda7jXAD2cqh7YQ/O8wW5BCX3TB6IbQ18L/Wi65UXnEqyjx6axD9BuozU1CJLRl+tV0PdKuNcC/WmnvAJZfSJmO8NrgX6+iUq41wM9MMYPvgL0ZuchaoA+WOpdg9QMvboEhdAbnkSxjn6VGJ7hrAX6w4m0YvTm568soy/2G0FUD/TyoreC3nTDiG30C4ND9BfVBH3jiYwlFfTG17GLvujMM+MTeu6jLugbjaJWX2FLsk30Pb3jrZD140ZN0f8qbPXmW5Jtot9r0Ht8c3QySH+tC/rvxX29+ZZki+gDWLQfTdLz4eNaopc3b6uDS9NtsRbRA58sLAz712OcdUQvW4fRuN6QvYw+LBN/zvO+DL3qiIhF1K9lDdErNko4mzXbFiuh38fDUuV5X4a+I/f0vCOdHK0derQJM0MPtoCYbIul6DXHjjV6GXrZQQRTNoTUDf0TsA4/fsXLsgZzWmvoZXc4S9W6UzP0sg3hiPg4lASr5mhDvSRr6KmPBOLl6aJ6oUebty8TqG9qn1NuObaGnjrvgCf1a4Ue2OqFjVBg5bZ0vcQaejqfgt4O64QeLEWRlW+wclu2PmsNPXU6B5fja4S+nGzZs1FlDb0Bv/qgN+lPwMpt8V4ca+jJAokPXXzWBj3YewYOOICjPIWGTGvoaV7oQ74u6OHYEYxf4BhIb8i0hp44C6o1ejBj0qy/wmObWkOmNfS7PwU92k6pO8IJd0PpjGlG6GlInPznF6Hv/iHo0aa+AutYBfYm6Ec0Ek/++9+AviL5KhmM0BNL153s9X8G+iodyFnGHZRDX4AemSrL1/9MDZkOvR49NFUarLwaDokcei36isN0QejoVZk/HIdeENq8bbjLRp3+OvSCbnFFZOxqVDH6OPSCbnDAVcHBrnwExaEXVN3tXCW30rK/QIf+qsrOFk0O6Qiiy1oOvaCqLkYrh2/44tDfB/0NgTPEeUE5+g24guRI/k6evP8o9DeG6hEMmeV+LvfgAtKWmTv5r/+T0Bv4+cO6si/35M1Afqnh3ilqA4Hjw2i7dUFv7NUV6GLILA8dgMK1SPXQxiqBDLSxSuhF67gsnscqqeRHWtYPfYQeepgJRV6lL4YQG0QOcrMFm2m0EXpocCIQLWIhnXywhf5l5C9GZIReqiDYgEf3iRXEpWKh2mVr41LRq3IlYoYSH94S+qp+61UdDZkIvRwKUNl2OpW6JN0m72MFEgnhmB6KFXorqdwljU+T+srRQjvoq0drUHUwZBpEY8v6DRI+q7eTzz4UxyDky/T63iw2+hiEdOTTZJNrtvaYA/8gVtDfg/zRkGkSgzCjl4xXcfug4bQjO2MSQ8bis5d+tOyug9UqUMN2ioEElUfOO0Hcjudpt6k4gLKG/rbIPKp+46CnICy6fww3y3moOo0QR+AF8WbDMPQAQK7bznDMFeIiz7KA3txIXKaPMNRvlTjT2S0Kn4LKUZbJrtaqmd8e/e1R2FR9RL6JZlq/S0CkopXRk0mrcpaqRG+O/ucLYg8aal2h2ZMY3JXRR+IwJqj0ttneX/9KAgdYNfLI4Y+q6OnRkUpvW/OdogdBibEYnXRK6FlZD+LRsfu6hL1PTz+8S/SN1LD5SlNdit6fbopZRlK83VlxYVGaEsbvE31jbNTuIynsuGK5LPQrFCoA5kWlRoEUAPqdolcizAMxJls1VaPxVO/FLASI1tpH5S/bcuzt94q+ESclPS/fKGeKgb1+sdXQjNDpzMYaP3HGj7D+EvQHi5UePuOJGhgdL5WsEtDyvSaM5Zv1OUwtlEWb0/v116BvzKZb6G6SedEegNeuUsleK32+hItQp0LXPjHZsJB3L5+U8TMX9G+Onvz8DFfyO5GYBIcfj0SHJ88oyVtqMe34EQ897+RR1wtDHjW7ATpP3ChYIBwF3WZW94MLFx5NxjHOftG8n+SJk93qOgIdtYmu5RLBmxuVJ4nnRMX3+DbqtedBmq4zpWkwbKM472cVrs3O2vF8NYyB6wOg2SIezk0TOxkuizu9hhx6a3LorcmhtyaH3pocemty6K3Jobcmh96aHHprcuityaG3Jofemhx6a3LorcmhtyaH3pocemty6K3Jobcmh96aHHprcuityaG3pvZ/ZAce9O7h9CqaxUSa7YHvXf8DbMAtmJfm94AAAAAASUVORK5CYII=" alt="">
+				</div>
+				<div class="marqueee-item">
+					<img src="data:image/jpg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBITFBcTEhIYFxUYGRUcGhoaExkYHB4cHBkZGhwXHR4aJSwjGioqIBodJTYlKS0vMzM2HSc6PjgwPSwyMzIBCwsLDw4PHRISHi8qIyMyMjMyMzIyMjIyPj0yMjIyMjIyMjIyMjIyLzcyMjIyMjIyMjIyMi8yOjIyMjI6Mi8yL//AABEIAHsBmgMBIgACEQEDEQH/xAAcAAEAAwEBAQEBAAAAAAAAAAAABQYHBAMBAgj/xABKEAACAQMABwUDBQsLBAMAAAABAgADBBEFBgcSITFBEyJRYXEygZEUQlKhsiM0U1RicnN0krHhFRczNTaToqOz0dJDwcPwFiSC/8QAGQEBAQEBAQEAAAAAAAAAAAAAAAECAwQF/8QAJhEAAgIBBAIDAAIDAAAAAAAAAAECEQMSITFBBFETImFxsRQyof/aAAwDAQACEQMRAD8A2aIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIB+Z9nHe6SoUMdtVSnvZxvMFzjnjPOc3/yGz/GaX7YlUJNWkzLklyyViRv8u2v4xT/AGxP1/LVt+Hp/tiX45emTXH2iQic1veU6mezdWxjODnGZ0zLVcmk0+D7ERBRERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQD5Oe7ukpI1SowVEUszHkABkmdEyDafrT2tT5FRb7mjfdSPnODwT0U8/yvzZ1w4nlnpRmctKsr+sOnXvbhqzZCDu01+igPD3nmfPyAi0uiODcR9f8ZD0ZIUZ9rToVR6Pl5JO7LDbuDxBzO6lIC2YjiDLlZ6BuHorWCjLcdzk270bj488enpOU8sV/tsZg3N0kfrRl21Jwy9OBHiOol9oVldQ6nIIyJnSKQcEEEcwRgjyMsWr19uns2PdY8PJv4/vni8iGr7I9Pj5NMtL4ZaonyfZ4j3nyJ9lc1g1ysLE4uK4D/g1Bd/eq+z6tiEm+AWKJm9LbHo1mANO5UH5xpU8DzO7UJ+Al00Lp61vF37WstQDGQMhlz9JTgr7xNShJcoEpPsSN0vpi2tE7W5rLTToWPEnnhVHFj5AEzPIJGJnNxth0YjFVS4qD6S0kAP7bqfqk9oDXrR96wSjXxUPKnUBRj5DPBjwPBSZp45JW0Sy0xE/DMAMk4AmSn6iUfS+1HRduxUVHrMDg9igce5mKq3uJnho7azouq265q0cnANSmMfGmzY9Tib+OVXTJZf4lb01rro+0FNq1bu1VLU2RWqKyjAJBTI6idt3rBbUrUXzuRblKbht1id2oVCHdAzx3x6TOllJeJVaGv+jHotcfKQtNW3O8jhi2A2FTG83BhyEgn2xaNDbop3JGcbwp08evFwfqlUJPolmjyN0/pA21tWuFTeNKlUcLnGSqk4PgOHGc2gNaLO+Uta1lcr7SkFXXzKtg48+XnJa5qKiM7+yqktwzwAJPDrwkqnuUzDZtr9d3901vcJTKmmzqyKV3d0qMHicg73XjnE1SU7UzTGiK9SomjaaI+6Gfct+yyucDJwM8TynrpjaBo61rPb16rLUTd3gKTsO8oYcQMHgwm5rVL6qvwFsiUf8AnV0R+Hf+4qf7R/Oroj8O/wDcVP8AaT4p+mS0XiJBat612mkO0+S1C/Z7m/lGTG/vbvtAZ9kyWu7qnSQ1KrqiKMszMFUDzJ4CYaadFPeJn19tc0XTbdXtqv5VOkN3/MZCfcJ2aG2maMuWC9q1FjyFZdwH/wDQJQe9pv45VdMll1iVnSOvFhb3PySpUYVt6mu6KbkZcKV7wGOO8J2axayWtgiPdOUV2KqQjPxAzjujhwmdL225KTUSpXm0HRlKklZ7jhUBZECsahGSMleajKnBbAOJDUNsOjWYKyXCD6TU0IHruuW+qVY5Ppks0aRGsmnaVhQa5rK5RSgIQAt3mCjgSB18Z76J0vb3aCrbVVqIeqnkcZ3WB4qcdCAZVtsX9V1fz6P+osRjckmUn9V9YqOkKJr0FcKGZO+oByApPAE8O8Jxac0tXp1VSmOHaU0OAMgMUBqNvAgqO0HDu53G7w4Yz3ZhrtYWNm1G5qsjmq74FN27pVADlRj5pmm6JvrPSNL5RRHaJlk3irKTjmpBwSOPI8JucNMntsRMktH3BqU0cgZZQeHEeoPUHmPKdc/IGOAn6nIoiIgCIiAIieNZiqswUsQCQoxk4HIZ4ZMAqO0bWr5DQ3KZ/wDsVQy0/wAkcmqH06eJI6AzDaR8Tk+ZyfU+MldPfK7y5e4rABmOAm/wRRwVBnw+s5PWeNLRFXwH7U+/42BYcf6+Tx5sifZ8oyQoz5S0VV8B+1JCz0TUZ1UlUDMoLE8FBON4+kuRnilKPssOpWg/lNTtHH3GmRnwZuYT/ufcOs1YCcejLCnb0lpUxhVGPMnqx8yeM7Z8PLk1ys+lgxLHGuzgv9F063Flw3RhwP8AH3yu3eiqlLjjeX6Q/wC46S4mfCIjllHbouTDGf8AJHaIve0XDHvLz8x0MkpE3dGnS+7BxTxzzwU56Y8T5fCSaNkA4xkCZlV2jWNtLS+UUvadrW2j7YCiQLisSqHnugY36mOuMgDzI54xM71E2dPpEfK7yo60nYkYOalQ57zlmzgE54nJPHlwJbc6pN/TQnurboQPNqlTJ+ofCbjo+3SlSp06YARERVA5boAA+oTtqeOCrlmuWUyvsn0Sybq06iNj21rOW9cNlfqmZ6f0HeaAuqdejVJQk9nUAwGHNqVReXLpyI4jBHD+iZ41qCOMOqsOeGUMM+PGYjmknvui0QFlrbQqaO/lE8EFMs654h17ppjPM7/dHjkeMxjR9le6w3ru9TdVeLMclKSEndpovUnBwOGcEk85o+2MCnospTUKr1qQYKABjvNnA81WfrYrboujt9R3nq1C565GFA+AHxm4tQg5rlukR80elpsm0UiBXSpUbq7VWU/BMAfCUrXnZkbOm13ZVHamnedG9tAOO+rDG8B6ZGM5PTdJ+KiBgVYAgggg8iDwImI5pp3ZaKBso1va+otQuG3q9EL3jzdDwDHxIPAnrlTzJlU2s62Va1f+TbYncBVagT2qlRsYp8OYGQMdW9BIzZV9z0y1Ome5i5T1VeIz70WfnZ4gracL1faD3VTB6v3/AN2SfdO2iMZN+lZLLZqzsgoKgfSDM9QjJpo26i5+aWHecjxBA9ec69N7IbGoh+Sl6FQDu5cuhPgwbLe8H3GaXE4fNO7stI/kvS9jXtqjWtfIakxG7klQWwd5emGG6cjnwm1az/2YT9VsPtUJV9u1si3VvUHtvSYN6K/dP+Ij3eUtGs/9mE/VbD7VCeictSg/0nsyrUjVOrpKuaaNuU0ANSpjO6DyUDqxwcehPSbFT2T6KCbhp1GbGN81m3vXAwv+GRWwimPklw2OJrgE+QpoQP8AEfjNSnPNllraT4CR/O2turVxoO5pXFtVY0yxNOpyZWHOm+OByPcwzw5zZNGaZW+0YblRjfo1d5fouFZXXj0DA48sSE2z01OjGJGStWkR5HJXI9xI984dljk6FrZ6NdAfsA/vJiT1wUnynQ7K3sG++rj9CPtrL3p7ZrY3tw9zWesHqFSwV1C91VQYBUnko6yibBvvq4/Qj7azcjJmbWRtMLgzn+Z3Rn07j+9T/hMv160bo62rfJrE1alRGxUdnV1DcuyUKo3jnmeh4c840Pajr/2AaytH+7EYq1FP9GD8xT9I9T8315eey3UDsQt9eJiqcGlTYf0Y6VHB+ceg+bz5+z0hKUY6pN/iDJfZXqpU0fQqVLg7tWvuFk6Iqb26Cfpd8k+HAdDM51n0xdadvhbW2TRDkUkzhcDg1d/dk56A4AyTnatc6rJo+7ZTgihWwR07jcZmWwW3Q1LuoQN9Uoqp6hXaoWHxRfhMwltLI+Q/RYtEbItH00Hyjfr1PnHeNNc/kqhBx6kyK1q2RUuzapo5mV1Geydt5Xx0VjxU+GSQfLnNciclmmndlpH8oaIZzd24ctvLWorhicqFdVC8eIxjGOmJre3j72tv0zfYMpeuFulPT7KmADcWzEAfOcUnb4sSffLnt5+9rb9M32DPS5apwZOmU3Z3qC2kt6tWY07ZW3e7jedhxKqTwAGRlsHwHXGkXeybRbIVRKlNujiqzHPmHyp+EkdltMLoq1wMZWoT6mo5JlunDJlk5umVI/nOm91q9pHdZt5O6W3eC1qJJGcE8CMNjwYHmOen7Wqqvomo6nKs1BgfEF1IPwMq23xBvWZxxK3A9wNLH7z8ZI62EnVqgT+Csv8Axzpzpk+WyeyC2cag2ekbRq9w1UOKrp3HVRgKhHAqePeM1rVrV+jo+j8noFym8zd8gnLYzxAHhKjsP/q5/wBYqfYpzRpyzTk5NN7FR9iInIoiIgCIiAIiIBm+vmgNx/lVNe6x+6AdGPJ/fyPn6yppNtuKKurI6hlYEEHkQeYmS6c0Q1rWNM5KHijeK/7jkf4z6/heRqjolyuDweVir7I5ac66c5Kc66c9Mz5OQvOqult8di57yjunxUdPUfu9DLLMttqrIwdThlIIPnLZc6321KkHqN3yP6NeL59Og8zj4z5OfC1K12fS8LzFKOmb3X9FmJlT05rnRpZShirU8Qe4p8yPa9B8RKVpzWq5usqT2dI/9NTzH5bc29OA8p4aA0W9zWWmvBebt9FRzPr0HmZI4UlcjWTy5SejH32XDVa2rXdT5XcsWVCezB4LvdWVegHLzPpLwJ421ulNFRF3VUAAeAE9hOEnbPZix6I1y+2ZTtt1eapTp3tNcmkClXAydwnKt6K2Qfz89DOzZpr7Qr0adrc1RTuKahVLthaqjgpDHhvYwCDxPMdcaPUphgQwBBBBBGQQeYI6zKtZ9j9OozVLCqKWePZVASgP5LLllHkQ3qBwnSE4yjpl1wzoapVroqlmcKoGSxIAA8STwmQ6/bTH31oaLq+ye/VVFYOeQRN4EEeYHE4xw5wg2R6VbCtUoBRyzWcqPQBCfql/1N2Z21iwr1m7euOKkruoh8VXjk/lH3ASqOOO7d/hN2etxq/eXmh2t7yoXu6ib+WCLuuGDpTO6ABwAUnzaZ7sv1vXR1R7S7BSk78WIINKoO6d8cwDgA+BUeeN8lG1z2c22kGNZD2NwcZdVyr4+muRk44bwIPjnAEkJxpxlwytFytrqnUQPTdXQjIZWDKR4gjgZSdf9fqFnSelQqB7tgVVVYN2ZI9tyOAIzkLzJx04zP6myLSikqlSiVPDIquoI8wV+rjJ3V3Y4FYPf1lcD/p0t4A/nOcHHiAAfOVQxx3bsls89h+rzg1L9wQpU06WfncQXceQ3QoPiW8JAa42lbQ+lhdUl7j1DWpnowY/dKZ8PaZfIMD1m+29BKaKiKFRQAqqMAAcAABynBp/QdvfUjQuae+h4g8mUjkyt80/v5HIJEizfdtrZlrY5tWtaLW/QPQqjewC1MkB0Pgy8/eOBnXpjTdtaUzUuay01Hie8fJV5sfICZFpbY1co+bS4pumSQKmUceAyoIb14ek8LLY9pCo+bi4pU1PNgz1H+GAD72EujHzq2Fsqeu+sjaRumrkFUACU1PMIM4zjhkkkn1x0ms6z/2YT9VsPtUJn+0zV+00e9vbW+S/Zu9RmOWYlgFJ6D2WwAP35mr3mgKt1oWnZKypUNvaLls7oNPsmOcZPzCJ0yONRa4siILYR95V/wBYP+nTmoSnbOdVqujaFSlVdHL1N8FN7GNxVwd4D6MuM8+RpybRUULbN/Vb/pKX2pGbKv6lr/nXP+mstWvur9TSFo1tSdUYujZfOMKcn2QTOXU3VarZWFS0d0Z3NUhlzu99AozkA8xNqa+Ou7HZnuwb76uP0I+2stW03X0Wam1tWBumHeYceyUjgfzyOQ6Diemf3s41DuNG1qlWrVpur0woCb+Qd4Nk7wHhIrXHZjdX17WuqdeiqVDTwrb+8N2miHOFxzUzbcJZbb2JvRwbMNUKRK6QvnQkneo03dSSTx7Z8nieoB9fCbB8vo/haf7a/wC8xT+Za9/GqH+Z/wAY/mWvfxqh/mf8YmoSduX/AAKzaK60rinUpbyurqyOFYHuuCpzjyzMA0BpCtoHSTpXUlBlKgA9pCcpVQZweQYeRI4Hlp+zXUutow3HbVKb9r2W7ub3Dc7TOd4D6Y+EmNbtT7bSVMLWBWovsVUxvr5ceDL5H3YPGYhKMW48plJXRelre6pipb1lqIeqnOPIjmp8jgyM1o1utNHoTWqKamO5SVgXY9Bj5o/KPD90ym72P6RpuTQr0nXo289N/eMED3MZ06G2NXDNm8uERM8RSy7n3sAF9e96S6Ma3cthbKPb6QqXOkadxVOalW5pMfAZqLgDyAwB5Cant5+9rb9M32DPG+2U1BeJWtXpU7dGoFUYuX7m5vEnBySQTz6yz7R9U62k6VKnSqIhp1CxL72CCpGBugzpLLByi1wiVsdGzD+q7X8x/wDUeWuQmqGiXs7Oja1GVmphgSud05dm4ZAPIybnlk7k2aMa2/e1Zelz/wCGS2n7RqurVMIMlLe1cj8ldwsfcuT7pJbS9S6+lDQNGpTTsRVzv73Hf7PGN0H6Blo0Bo80LSjbVN1jTpU0bHFW3VCnGeYPnO3yJQjXKZK3M22L6x2yUHtKtRadTtC67zBQysqAgE8CQVPDwI8DNapVVYZVgw8QQR9UynWHY6lR2eyrikrHPZupZVP5LDiB5EH1ly1A1dqaOtPk1V0dt92ymcYbHiAekmXQ/snz0EWmIicSiIiAIiIAiIgH5kRrDohbqkV4B14o3g3gfI8j/CTESxk4tNcokoqSpmMGmyMUcEMpIIPMEcCJ6GqqDedgB4n/AN4y9ay6stcOKlFlRyMNvAkHHJuHXp8PCVats2u3OXuqZP5rYHoOk+p/lwlFNvc+Rk8Kbk0uCt3Wm2PdpDA+kefuHSR4Yk5JyT1lzGzK4/GKf7LT0Gze4/GKf7LTm8+N9kXiTjwioUkLEKoJJIAAGSSeAAmwaq6FFpRCnHaPhqh8+ijyXl8T1kVqxqYbar2tZ1qFR3AqkAE82OeuOXqfKXOeXNlUtkezxvHcPtLk+xETge0REQBERAEREAREQBMP2o2V7Y3YvbetVFB3Vxh2KpVGCVK8sMRvDPA5I6TcJz3dqlVGp1EV0YYZWUMpHgQec1CWl2RlF1a2pWFwii5cW9bHeVwdwnqVcZAHk2D68506e2m6OtkJp1RcVMd1KeSCem8+N1R8T5GReltjllUYtb1qlDPzeFRB6BsN8WM8dF7GbVCGuLmpWx81VFJT5HizfAidaw82/wCBuUvVnRVzp3SDXFwM0g4aq2CFCj2aCeoAGOgyTx5/0KBOTR2jqNvTWlQprTReSqMDzPmT1J4mdk55J6n+IJUfYiJgoiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIB/9k=" alt="">
+				</div>
+				<div class="marqueee-item">
+					<img src="data:image/png;base64,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" alt="">
+				</div>
+				<div class="marqueee-item">
+					<img src="data:image/png;base64,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" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+	<style>
+		/* marque comapnies */
+	</style>
+	<!-- Companies  end -->
+	<section class="sectioGap">
+		<!--Contact Us-->
+		<style>
+			@media (max-width: 768px) {
+				.form-control {
+					width: 100%;
+				}
+			}
+		</style>
+		<div class="container-fluid contact">
+			<h2 class="text-center m-3" data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">Contact Us</h2>
+			<div class="border"></div>
+			<div class="row">
+				<div class="col-md-6 maps"  data-aos="fade-right">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.3795293219887!2d83.65858651533061!3d18.466460175645476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3c772724754cc9%3A0xcf876cd74c2b6b01!2sGMR%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1660991119212!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+				<div class="col-md-6 mailForm"  data-aos="fade-left">
+					<form action="mailto:gmrit@gmrit.edu.in" method="post" id="mail" class="php-email-form" onsubmit="return sendMail();">
+						<div class="row">
+							<div class="col-md-6">
+								<input type="text" name="name" class="form-control" id="name" placeholder="Your Name">
+								<span id="nameError" style="color: red; display: none;">Please enter your name <i class="fa fa-diamond-exclamation"></i></span>
+							</div>
+							<div class="col-md-6 form-group mt-3 mt-md-0">
+								<input type="email" class="form-control" name="email" id="email" placeholder="Your Email">
+								<span id="emailError" style="color: red; display: none;">Please enter your email <i class="fa fa-diamond-exclamation"></i></span>
+							</div>
+						</div>
+						<div class="form-group mt-3">
+							<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+							<span id="subError" style="color: red; display: none;">Please enter your subject <i class="fa fa-diamond-exclamation"></i></span>
+						</div>
+						<div class="form-group mt-3">
+							<textarea class="form-control" name="message" rows="5" placeholder="Message" id="message"></textarea>
+							<span id="msgError" style="color: red; display: none;">Please enter your message <i class="fa fa-diamond-exclamation"></i></span>
+						</div>
+						<div class="text-center"><input type="submit" name="submit" id="submit" value="Send Message" class="btn btn-primary" style="width: 200px; border-radius: 50px;"></div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!-- Contact Us Ends -->
+	</section>
+	<!-- <img src="./images/facilities/footerUp.jpeg" style="width:100vw" alt="" srcset=""> -->
+	<!-- Footer -->
+	<footer id="footer" class="bg-one">
+		<div class="top-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-3 col-md-3 col-lg-3">
+						<ul>
+							<li>
+								<h3>Accreditations</h3>
+							</li>
+							<li><a href="accreditations.php">Overview</a></li>
+							<li><a href="nba.php">NBA Accreditation</a></li>
+							<li><a href="naac.php">NAAC Accreditation</a></li>
+							<li><a href="mou.php">Memorandium of Understanding</a></li>
+						</ul>
+					</div>
+					<!-- End of .col-sm-3 -->
+
+					<div class="col-sm-3 col-md-3 col-lg-3">
+						<ul>
+							<li>
+								<h3>Approvals</h3>
+							</li>
+							<li><a href="./PDFs/approvals/ugc_autonomy.pdf" target="_blank">UGC Autonomy - 2012-16</a></li>
+							<li><a href="./PDFs/approvals/extension_of_autonomous-2018.pdf" target="_blank">UGC Autonomy - 2018-28</a></li>
+							<li><a href="aicte.php">AICTE Approval Letters</a></li>
+							<li><a href="./PDFs/approvals/jntuk_affiliation.pdf" target="_blank">JNTUK Affiliation</a></li>
+						</ul>
+					</div>
+					<!-- End of .col-sm-3 -->
+
+					<div class="col-sm-3 col-md-3 col-lg-3">
+						<ul>
+							<li>
+								<h3>Autonomy Governance</h3>
+							</li>
+							<li><a href="autonomy.php">Overview</a></li>
+							<li><a href="highlight_autonomy.php">Highlights of Autonomy</a></li>
+							<li><a href="governance.php">Governance Committees</a></li>
+							<li><a href="./academic_regulations.php" target="_blank">Academic Regulation</a></li>
+							<li><a href="./PDFs/governance/UGC_Undertaking.pdf" target="_blank">UGC Undertaking</a></li>					
+
+						</ul>
+					</div>
+					<!-- End of .col-sm-3 -->
+
+					<div class="col-sm-3 col-md-3 col-lg-3">
+						<ul>
+							<li>
+								<h3>Contact</h3>
+							</li>
+							<li><a href="contact.php">Contact College</a></li>
+							<li><a href="index.php?enquire=true">Enquire Now</a></li>
+							<li><a href="sitemap.php">Sitemap</a></li>
+							<li><a href="http://www.gmrit.org/indexold.asp" target="_blank">Old Website</a></li>
+						</ul>
+					</div>
+					<!-- End of .col-sm-3 -->
+
+				</div>
+				<br><br>
+				<div class="row">
+					<div class="col-sm-3 col-md-3 col-lg-3">
+						<div>
+							<ul>
+							<li>
+								<h3>Student Activities</h3>
+							</li>
+							<li><a href="./studentActivities/">Overview</a></li>
+							<li><a href="https://gmrit.edu.in/studentActivities/studentActivityPage.php?type=Professional_Body">Professional Bodies</a></li>
+							<li><a href="https://gmrit.edu.in/studentActivities/studentActivityPage.php?type=student_club">Student Clubs</a></li>
+							<li><a href="https://gmrit.edu.in/studentActivities/studentActivityPage.php?type=Extension_Activities">Extension Activities</a></li>
+						</ul>
+						</div>
+						
+						<div>
+							<ul>
+							<li>
+								<h3 style="margin-top:20px;margin-bottom:10px" >STUDENT SERVICES</h3>
+							</li>
+							<li><a href="https://gmrit.edu.in/bgc-payment/">Student Verification</a></li>
+							<li><a href="https://gmrit.edu.in/transcripts/">Issue of Transcripts</a></li>
+							<li><a href="">Course Completion Certificate</a></li>
+							<li><a href="">PC Application</a></li>
+							</ul>
+						</div>
+					</div>
+					<!-- End of .col-sm-3 -->
+
+					<div class="col-sm-3 col-md-3 col-lg-3">
+						<ul>
+							<li>
+								<h3>Research</h3>
+							</li>
+							<li><a href="research.php">Overview</a></li>
+							<li><a href="faculty.php">Faculty Research Profiles</a></li>
+							<li><a href="researchGroups.php">Research Groups</a></li>
+							<li><a href="publications.php">Faculty Publications</a></li>
+							<li><a href="#">Research Projects</a></li>
+							<li><a href="seminars.php">Seminar & Conference Notifications</a></li>
+							<li><a href="#" download="Gmrit_Researchs_grants.pdf">Grants Received</a></li>
+							<li><a href="labs.php">Research Labs/Center</a></li>
+							<li><a href="patents.php">Patents</a></li>
+						</ul>
+					</div>					
+					<!-- End of .col-sm-3 -->
+
+					<div class="col-sm-3 col-md-3 col-lg-3">
+						<ul>
+							<li>
+								<h3>Feedback</h3>
+							</li>
+							<li><a href="feedback.php">Overview</a></li>
+							<li><a href="classes_feedback.php">Online Classes Feedback</a></li>
+							<li><a href="student_satisfaction.php">Student Satisfaction Survey</a></li>
+							<li><a href="curriculum_feedback.php">Curriculum Feedback</a></li>
+							<li><a href="https://www.aicte-india.org/feedback/index.php">AICTE Feedback</a></li>
+							<li><a href="compliment.php">Compliments</a></li>
+							<li><a href="complaint.php">Complaint</a></li>
+						</ul>
+					</div>
+					<!-- End of .col-sm-3 -->
+
+					<div class="col-sm-3 col-md-3 col-lg-3">
+						<ul>
+							<li>
+								<h3>Downloads</h3>
+							</li>
+							<li><a href="./PDFs/notifications/List%20of%20Holidays%202023.pdf" target="_blank">List of Holidays</a></li>
+							<li><a href="./PDFs/Downloads/gmrit_admission_form.doc" target="_blank">Download admission form</a></li>
+							<li><a href="/PDFs/Downloads/Letter_of_Undertaking_Industrial_tour.pdf" target="_blank">Letter of undertaking for Industrial Tour given by Parents</a></li>
+							<li><a href="http://www.gmrit.org/resources/gmrit_admission_form.doc" download>Admission Form</a></li>
+							<li><a href="http://www.gmrit.org/resources/College_Fee_Challan.pdf">College Fee Challan</a></li>
+							<li><a href="http://www.gmrit.org/resources/Hostel_Fee_Challan.pdf">Hostel Fee Challan</a></li>
+								<li><a href="./PDFs/student_activities/it_policy_for_students.pdf" target="_blank">Students Code of Conduct</a></li>
+							<li><a href="./PDfs/student_activities/it_policy_for_students.pdf" target="_blank">IT Policy for Student</a></li>
+						</ul>
+						<ul>
+							<li><a href="sdgs_2023.php" target="_blank">Sustainable Development Goals</a></li>	
+						</ul>
+					</div>
+					<!-- End of .col-sm-3 -->
+					
+				</div>
+					<div id="counter" class="hit">
+				<span style="color: white;">WEBSITE VISITS : <br class="d-none d-md-block"> </span>
+			</div>
+			</div> <!-- end container -->
+			<button class="top btn btn-outline-info" id="clickTop"><i class="fas fa-arrow-up"></i></button>
+		</div>
+		<div class="footer-bottom">
+			<h5>&#169; Copyright 2022. All rights reserved.</h5>
+			<h5 style="color: $fff;">Designed and Developed by <a href="#">Gmrit Students</a></h5>
+		</div>
+	</footer>
+<style>
+	    .number{
+			color: rgb(255 255 255);
+    display: inline-block;
+    padding: 6px 8px 4px;
+    border-radius: 3px;
+    background: #9238f1;
+    margin-right: 2px;
+	}
+	</style>
+
+<script>
+	
+		fetch('../counter.php')
+			.then((response) => response.text())
+			.then((data) => {
+			
+				let counter = document.getElementById('counter');
+				let number = data;
+				let numberstring = number.toString();
+				let stringarray = numberstring.split("");
+				stringarray.forEach((ele) => {
+					let createcounter = document.createElement("span");
+					createcounter.setAttribute("class", "number");
+					createcounter.innerText = ele;
+					counter.appendChild(createcounter);
+				})
+									})
+</script></body>
+
+																						  
+
+<!-- 
+    Essential Scripts
+    =====================================-->
+<!-- Main jQuery -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
+<script>
+	$(document).ready(function(){
+		$("#myModal").modal('show');
+	});
+</script>
+
+<!-- Data AOS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+	AOS.init();
+</script>
+<!-- Smooth Scroll js -->
+<script src="plugins/smooth-scroll/smooth-scroll.min.js"></script>
+<script>
+	$(function() {
+		var tickerLength = $('.notificationContainer ul li').length;
+		var tickerHeight = $('.notificationContainer ul li').outerHeight();
+		$('.notificationContainer ul li:last-child').prependTo('.notificationContainer ul');
+		$('.notificationContainer ul').css('marginTop', -tickerHeight);
+
+		function moveTop() {
+			$('.notificationContainer ul').animate({
+				top: -tickerHeight
+			}, 600, function() {
+				$('.notificationContainer ul li:first-child').appendTo('.notificationContainer ul');
+				$('.notificationContainer ul').css('top', '');
+			});
+		}
+		setInterval(function() {
+			moveTop();
+		}, 3000);
+	});
+</script>
+<!-- Google Map -->
+<!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>-->
+<!--<script src="plugins/google-map/gmap.js"></script>-->
+<!-- Form Validation -->
+<script src="plugins/form-validation/jquery.form.js"></script>
+<script src="plugins/form-validation/jquery.validate.min.js"></script>
+<!-- Bootstrap4 -->
+<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+<!-- Parallax -->
+<script src="plugins/parallax/jquery.parallax-1.1.3.js"></script>
+<!-- lightbox -->
+<script src="plugins/lightbox2/dist/js/lightbox.min.js"></script>
+<!-- Owl Carousel -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- filter -->
+<script src="plugins/filterizr/jquery.filterizr.min.js"></script>
+<!-- Sweet Alert 2 -->
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://kit.fontawesome.com/506b713f8c.js" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/506b713f8c.js" crossorigin="anonymous"></script>
+<!-- Custom js -->
+<script src="webjs/navbar.js"></script>
+<script src="webjs/Newscript.js"></script>
+
+<script>
+	$(function() {
+		var tickerLength = $('.notificationContainer1 ul li').length;
+		var tickerHeight = $('.notificationContainer1 ul li').outerHeight();
+		$('.notificationContainer1 ul li:last-child').prependTo('.notificationContainer1 ul');
+		$('.notificationContainer1 ul').css('marginTop', -tickerHeight);
+
+		function moveTop() {
+			$('.notificationContainer1 ul').animate({
+				top: -tickerHeight
+			}, 600, function() {
+				$('.notificationContainer1 ul li:first-child').appendTo('.notificationContainer1 ul');
+				$('.notificationContainer1 ul').css('top', '');
+			});
+		}
+		setInterval(function() {
+			moveTop();
+		}, 5000);
+	});
+	$(function() {
+		var tickerLength = $('.notificationContainer2 ul li').length;
+		var tickerHeight = $('.notificationContainer2 ul li').outerHeight();
+		$('.notificationContainer2 ul li:last-child').prependTo('.notificationContainer2 ul');
+		$('.notificationContainer2 ul').css('marginTop', -tickerHeight);
+
+		function moveTop() {
+			$('.notificationContainer2 ul').animate({
+				top: -tickerHeight
+			}, 600, function() {
+				$('.notificationContainer2 ul li:first-child').appendTo('.notificationContainer2 ul');
+				$('.notificationContainer2 ul').css('top', '');
+			});
+		}
+		setInterval(function() {
+			moveTop();
+		}, 5000);
+	});
+	$(function() {
+		var tickerLength = $('.notificationContainer3 ul li').length;
+		var tickerHeight = $('.notificationContainer3 ul li').outerHeight();
+		$('.notificationContainer3 ul li:last-child').prependTo('.notificationContainer3 ul');
+		$('.notificationContainer3 ul').css('marginTop', -tickerHeight);
+
+		function moveTop() {
+			$('.notificationContainer3 ul').animate({
+				top: -tickerHeight
+			}, 600, function() {
+				$('.notificationContainer3 ul li:first-child').appendTo('.notificationContainer3 ul');
+				$('.notificationContainer3 ul').css('top', '');
+			});
+		}
+		setInterval(function() {
+			moveTop();
+		}, 5000);
+	});
+</script>
+<script>
+	$(document).ready(function() {
+		$('.testiCarousel').slick({
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			autoplay: true,
+			autoplaySpeed: 3000,
+			pauseOnHover:false,
+		});
+	});
+	$(document).ready(function() {
+		$('.notificationCarousel').slick({
+			slidesToShow: 4,
+			slidesToScroll: 1,
+			autoplay: true,
+			autoplaySpeed: 1000,
+			centerMode: true,
+			centerPadding: '10px',
+			arrows: true,
+			prevArrow: $('.notificationPrev'),
+			nextArrow: $('.notificationNext'),
+			responsive: [{
+					breakpoint: 1024,
+					settings: {
+						slidesToShow: 5,
+						slidesToScroll: 4,
+						infinite: true,
+						dots: true
+					}
+				},
+				{
+					breakpoint: 768,
+					settings: {
+						slidesToShow: 2,
+						slidesToScroll: 1,
+					}
+				},
+				{
+					breakpoint: 512,
+					settings: {
+						slidesToShow: 1,
+						slidesToScroll: 1
+					}
+				}
+			]
+		});
+	});
+</script>
+<style>
+	</style>
+
+<script src="https://cdn.jsdelivr.net/npm/party-js@latest/bundle/party.min.js"></script>
+
+<script>
+    let btns = document.getElementsByClassName('btn1');
+    for (let i = 0; i < btns.length; i++) {
+        setTimeout(() => {
+            party.confetti(btns[i], {
+                count: party.variation.range(20, 40),
+            });
+        }, 1000);
+        setTimeout(() => {
+            party.confetti(btns[i], {
+                count: party.variation.range(20, 40),
+            });
+        }, 3000);
+        setTimeout(() => {
+            party.confetti(btns[i], {
+                count: party.variation.range(20, 40),
+            });
+        }, 5000);
+    }
+</script>
+
+</html>
